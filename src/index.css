@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --orange: #fc4a1a;
+    --lightorange: #fd6e48;
+    --yellow: #f7b733;
+    --lightyellow:#f9c55c;
+    --turquoise:#4abdac;
+    --lightturquoise: #6ecabd;
+    --dark: #333;
+    --white: #f6eeeb;
+}
+
+/* Titulares: Gobold
+
+Textos: Acumin Variable Concept */

@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #c2e0d8;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.logo{
+    width: 100px;
+}
