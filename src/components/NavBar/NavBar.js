@@ -7,22 +7,26 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <header>
+    <header className='header'>
+      <div className='header--container'>
         <Link to="/">
             <img src={logo} alt="Logo Swype Business" className='logo'/>
         </Link>
-        <nav>
-            <ul className='nav'>
-                <li><NavLink to="/estudio">El Estudio</NavLink></li>
-                <li><NavLink to="/servicios">Servicios</NavLink></li>
-                <li><NavLink to="/equipo">El Equipo</NavLink></li>
-                <li><NavLink to="/clientes">Clientes</NavLink></li>
-                <li><NavLink to="/contacto">Contacto</NavLink></li>
-            </ul>
-      </nav>
-      <div>
-        <AiFillInstagram />
-        <AiFillFacebook />
+        <div className='nav--container'>
+          <nav>
+              <ul className='nav'>
+                  <li><NavLink to="/estudio">El Estudio</NavLink></li>
+                  <li><NavLink to="/servicios">Servicios</NavLink></li>
+                  <li><NavLink to="/equipo">El Equipo</NavLink></li>
+                  <li><NavLink to="/clientes">Clientes</NavLink></li>
+                  <li><NavLink to="/contacto">Contacto</NavLink></li>
+              </ul>
+          </nav>
+          <div className='social--container'>
+            <AiFillInstagram />
+            <AiFillFacebook />
+          </div>
+        </div>
       </div>
     </header>
   )

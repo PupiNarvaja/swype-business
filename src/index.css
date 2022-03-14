@@ -14,7 +14,14 @@
     --lightturquoise: #6ecabd;
     --dark: #333;
     --white: #f6eeeb;
+    --white0-7:rgba(246, 238, 235, .7);
 }
+
+/* @media (min-width: 1440px) {
+    :root {
+        font-size: 12px;
+    }
+} */
 
 /* Titulares: Gobold
 
