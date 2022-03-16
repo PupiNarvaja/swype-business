@@ -15,14 +15,35 @@
     --dark: #333;
     --white: #f6eeeb;
     --white0-7:rgba(246, 238, 235, .7);
+    --main-bg: #F6EEEB;
 }
 
-/* @media (min-width: 1440px) {
-    :root {
-        font-size: 12px;
-    }
-} */
+body {
+    background-color: var(--main-bg);
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* FONTS */ 
 
 /* Titulares: Gobold
-
 Textos: Acumin Variable Concept */
+
+@font-face {
+    font-family: Gobold;
+    src: url(./assets/fonts/Gobold\ Hollow\ Bold.otf);
+}
+@font-face {
+    font-family: "Acumin Variable Concept";
+    src: url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot");
+    src: url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot?#iefix")
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.woff2")
+    format("woff2"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.woff")
+    format("woff"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.ttf")
+    format("truetype"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.svg#Acumin Variable Concept")
+    format("svg"); 
+}

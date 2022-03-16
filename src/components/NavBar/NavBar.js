@@ -23,7 +23,9 @@ const NavBar = () => {
               </ul>
           </nav>
           <div className='social--container'>
-            <AiFillInstagram />
+            <a href='https://www.instagram.com/swypecreativo/'>
+              <AiFillInstagram />
+            </a>
             <AiFillFacebook />
           </div>
         </div>
