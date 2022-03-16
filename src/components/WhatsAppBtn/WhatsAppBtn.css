@@ -2,16 +2,5 @@
     position: fixed;
     right: 60px;
     bottom: 40px;
-}
-
-@media (min-width: 0px) {
-    .wpp-icon {
-        width: 60px;
-    }
-}
-
-@media (min-width: 768px) {
-    .wpp-icon {
-        width: 80px;
-    }
+    width: clamp(60px, 10px + 10vw, 80px);
 }

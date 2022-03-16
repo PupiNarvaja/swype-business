@@ -5,7 +5,7 @@ import wppIcon from '../../assets/images/wppIcon.svg';
 const WhatsAppBtn = () => {
     return (
         <div>
-            <img src={wppIcon} className='wpp-icon'></img>
+            <img src={wppIcon} alt='WhatssApp icon' className='wpp-icon'></img>
         </div>
     )
 }
