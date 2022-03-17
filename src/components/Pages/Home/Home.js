@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import title from '../../../assets/images/mainTitle.png';
 import './Home.css';
-import title from '../../assets/images/mainTitle.png'
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         </div>
       </div>
       <div className='estudio--container'>
-        <h2>EL ESTUDIO</h2>
+        <h2 className='title'>El Estudio</h2>
         <div className='estudio--p'>
           <p>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
           <br></br>

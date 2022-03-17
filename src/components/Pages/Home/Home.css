@@ -32,13 +32,14 @@
     flex-flow: column nowrap;
 }
 
-.estudio--container h2 {
-    font-family: Gobold;
+.title {
+    font-family: 'Gobold';
     font-size: clamp(60px, 20px + 10vw, 80px);
     line-height: 80px;
     text-align: center;
     color: rgba(74, 189, 172, 1);
-    margin-bottom: 110px;
+    margin-bottom: 90px;
+    text-transform: uppercase;
 }
 
 .estudio--container .estudio--p {
@@ -54,6 +55,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .estudio--container .estudio--p p {
@@ -75,6 +77,8 @@
     margin: 32px auto 0 auto;
     display: block;
     max-width: 196px;
+    cursor: pointer;
+    transition: all 500ms ease 0s;
 }
 
 .estudio--container button:hover {
