@@ -70,36 +70,10 @@ h2 {
     color: white;
 }
 
-.button--container {
-    display: flex;
-    justify-content: center;
-}
-
-.button--container a {
-    border-radius: 100px;
-}
-
-.estudio--container button {
-    background: var(--turquoise);
-    border: none;
-    border-radius: 100px;
-    padding: 0 42px;
-    font-family: 'Acumin Variable Concept';
-    font-size: 20px;
-    line-height: 50px;
-    color: white;
-    display: block;
-    max-width: 196px;
-    cursor: pointer;
-}
-
-.estudio--container button:hover {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
 /* SERVICIOS  */
 .servicios--container {
     width: 90%;
+    margin-bottom: 110px;
 }
 
 .servicios--container h2 {
@@ -162,6 +136,57 @@ h2 {
     width: 123%;
 }
 
+/* EL EQUIPO */
+.equipo--wrapper {
+    background-image: url(../../../assets/images/horizontalCurves.png);
+    background-size: 470px 1120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+}
+
+.equipo--container {
+    position: relative;
+    top: -100px;
+}
+
+.equipo--container h2 {
+    margin-bottom: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.equipo--container .users--container {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 75px 0;
+}
+
+.max-width-313 {
+    max-width: 313px;
+    margin: 0 10px;
+}
+
+.max-width-313 img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: 7.68px;
+    }
+    .equipo--wrapper {
+        background-image: url(../../../assets/images/curves.png);
+        background-size: 102%;
+        background-position: 50% 57%;
+    }
+    .equipo--container .users--container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
+
 @media (min-width: 900px) {
     .container {
         padding: 0 50px;
@@ -170,7 +195,8 @@ h2 {
         justify-content: space-between;
     }
     .estudio--container,
-    .servicios--container {
+    .servicios--container,
+    .equipo--container {
         width: unset;
     }
     /* SERVICIOS */
@@ -182,11 +208,10 @@ h2 {
 
 @media (min-width: 1100px) {
     .estudio--container h2 {
-        width: 88%;
-        max-width: 690px;
         text-align: end;
     }
-    .estudio--container .button--container {
+    .estudio--container .button--container,
+    .estudio--container h2 {
         justify-content: flex-end;
         width: 88%;
         max-width: 690px;
@@ -194,6 +219,11 @@ h2 {
     /* SERVICIOS */
     .servicios--container .card-1 {
         margin-left: 0;
+    }
+    /* EL EQUIPO */
+    .equipo--container h2 {
+        text-align: end;
+        margin-right: 20px;
     }
 }
 
