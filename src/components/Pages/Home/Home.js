@@ -4,6 +4,7 @@ import './Home.css';
 import title from '../../../assets/images/mainTitle.png';
 import user from '../../../assets/images/user.png'
 import MainButton from '../../MainButton/MainButton';
+import Carousel from '../../Carousel/Carousel';
 
 const Home = () => {
     return (
@@ -60,6 +61,11 @@ const Home = () => {
                     </div>
                 </div>
                 <MainButton text="Conocé más" destiny="/equipo"/>
+            </div>
+            <div className='clientes--container'>
+                <h2 className='container'>CLIENTES</h2>
+                <Carousel />
+                <MainButton text="Conocé más" destiny="/clientes"/>
             </div>
         </>
     )

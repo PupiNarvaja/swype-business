@@ -7,7 +7,7 @@
     border-radius: 100px;
 }
 
-button {
+.mainButton {
     background: var(--turquoise);
     border: none;
     border-radius: 100px;
@@ -21,6 +21,6 @@ button {
     cursor: pointer;
 }
 
-.estudio--container button:hover {
+.mainButton:hover {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }

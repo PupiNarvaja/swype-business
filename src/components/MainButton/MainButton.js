@@ -6,7 +6,7 @@ const MainButton = ({text, destiny}) => {
     return (
         <div className='button--container'>
             <Link to={destiny}>
-                <button>{text}</button>        
+                <button className='mainButton'>{text}</button>        
             </Link>                    
         </div>
     )

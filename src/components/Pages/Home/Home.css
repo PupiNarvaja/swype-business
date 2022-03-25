@@ -172,6 +172,22 @@ h2 {
     width: 100%;
 }
 
+/* CLIENTES */
+.clientes--container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.clientes--container h2 {
+    margin: 110px auto 90px auto;
+    text-align: center;
+}
+
+.clientes--container .carousel--container {
+    margin-bottom: 100px;
+}
+
+
 @media (min-width: 768px) {
     :root {
         font-size: 7.68px;
@@ -224,6 +240,10 @@ h2 {
     .equipo--container h2 {
         text-align: end;
         margin-right: 20px;
+    }
+    /* CLIENTES */
+    .clientes--container h2 {
+        text-align: start;
     }
 }
 
