@@ -6,7 +6,7 @@
 
 h2 {
     font-family: Gobold;
-    font-size: clamp(60px, 20px + 10vw, 80px);
+    font-size: 4.44rem;
     line-height: 80px;
     color: var(--turquoise);
 }
@@ -65,7 +65,7 @@ h2 {
 
 .estudio--container .estudio--p p {
     font-family: Acumin Variable Concept;
-    font-size: clamp(18px, 5px + 2vw, 24px);
+    font-size: 1.33rem;
     line-height: 24px;
     color: white;
 }
@@ -100,9 +100,9 @@ h2 {
 }
 
 .servicios--container .servicios--card {
-    max-width: 387px;
     min-width: 310px;
-    min-height: 460px;
+    width: 21.5rem;
+    min-height: 25.55rem;
     padding: 45px 60px;
     margin: 22.5px;
     background-repeat: round;
@@ -113,25 +113,25 @@ h2 {
 
 .servicios--card h3 {
     font-family: Acumin Variable Concept;
-    font-size: 40px;
+    font-size: 2.22rem;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 2.22rem;
     text-align: center;
 }
 
 .servicios--container .circle {
-    min-width: 152px;
-    min-height: 152px;
-    margin: 40px 0 20px 0;
+    width: 8.44rem;
+    height: 8.44rem;
+    margin: 2.22rem 0 1.11rem 0;
     border-radius: 100%;
     background-color: var(--gray);
 }
 
 .servicios--container p {
     font-family: Acumin Variable Concept;
-    font-size: 23px;
+    font-size: 1.28rem;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 1.28rem;
     text-align: center;
     width: 123%;
 }
@@ -151,7 +151,6 @@ h2 {
 }
 
 .equipo--container h2 {
-    margin-bottom: 100px;
     margin-bottom: 100px;
     text-align: center;
 }
@@ -189,9 +188,6 @@ h2 {
 
 
 @media (min-width: 768px) {
-    :root {
-        font-size: 7.68px;
-    }
     .equipo--wrapper {
         background-image: url(../../../assets/images/curves.png);
         background-size: 102%;
@@ -246,19 +242,3 @@ h2 {
         text-align: start;
     }
 }
-
-/* @media (min-width: 768px) {
-    :root {
-        font-size: 7.68px;
-    }
-}
-@media (min-width: 1024px) {
-    :root {
-        font-size: 10.24px;
-    }
-}
-@media (min-width: 1440px) {
-    :root {
-        font-size: 14.4px;
-    }
-} */

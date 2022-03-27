@@ -50,13 +50,13 @@ const Home = () => {
                     <h2>EL EQUIPO</h2>
                     <div className='users--container'>
                         <div className='max-width-313'>
-                            <img src={user}></img>
+                            <img src={user} alt='miembro del equipo'></img>
                         </div>
                         <div className='max-width-313'>
-                            <img src={user}></img>
+                            <img src={user} alt='miembro del equipo'></img>
                         </div>
                         <div className='max-width-313'>
-                            <img src={user}></img>
+                            <img src={user} alt='miembro del equipo'></img>
                         </div>
                     </div>
                 </div>
