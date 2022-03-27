@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import title from '../../../assets/images/mainTitle.png';
+import user from '../../../assets/images/user.png'
+import MainButton from '../../MainButton/MainButton';
+import Carousel from '../../Carousel/Carousel';
 
 const Home = () => {
     return (
@@ -20,11 +23,7 @@ const Home = () => {
                     <br></br>
                     <p>Brindamos servicios de excelencia.</p>
                 </div>
-                <div className='button--container'>
-                    <Link to="/estudio">
-                        <button>Conocé más</button>        
-                    </Link>
-                </div>
+                <MainButton text="Conocé más" destiny="/estudio"/>
             </div>
             <div className='servicios--container container'>
                 <h2>SERVICIOS</h2>
@@ -45,6 +44,28 @@ const Home = () => {
                         <p>El éxito está en interactuar mientras los demás solo postean.</p>
                     </div>
                 </div>
+            </div>
+            <div className='equipo--wrapper'>
+                <div className='equipo--container container'>
+                    <h2>EL EQUIPO</h2>
+                    <div className='users--container'>
+                        <div className='max-width-313'>
+                            <img src={user} alt='miembro del equipo'></img>
+                        </div>
+                        <div className='max-width-313'>
+                            <img src={user} alt='miembro del equipo'></img>
+                        </div>
+                        <div className='max-width-313'>
+                            <img src={user} alt='miembro del equipo'></img>
+                        </div>
+                    </div>
+                </div>
+                <MainButton text="Conocé más" destiny="/equipo"/>
+            </div>
+            <div className='clientes--container'>
+                <h2 className='container'>CLIENTES</h2>
+                <Carousel />
+                <MainButton text="Conocé más" destiny="/clientes"/>
             </div>
         </>
     )
