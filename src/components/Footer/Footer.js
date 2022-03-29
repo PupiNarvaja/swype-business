@@ -1,9 +1,9 @@
 import React from 'react';
+import mail from '../../assets/images/mail.png';
+import whatsapp from '../../assets/images/whatsapp.png';
+import instagram from '../../assets/images/instagram.png';
+import facebook from '../../assets/images/facebook.png';
 import './Footer.css';
-import mail from '../../assets/images/mail.png'
-import whatsapp from '../../assets/images/whatsapp.png'
-import instagram from '../../assets/images/instagram.png'
-import facebook from '../../assets/images/facebook.png'
 
 const Footer = () => {
     return (

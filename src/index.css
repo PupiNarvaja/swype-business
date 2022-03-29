@@ -13,7 +13,7 @@
     --turquoise:#4abdac;
     --lightturquoise: #6ecabd;
     --dark: #333;
-    --white: #f6eeeb;
+    --white: #fff;
     --white0-7:rgba(246, 238, 235, .7);
     --main-bg: #F6EEEB;
     --gray: #C4C4C4;
@@ -47,13 +47,13 @@ a:visited {
 
 /* FONTS */ 
 
-/* Titulares: Gobold
-Textos: Acumin Variable Concept */
-
+/* Titulares: */
 @font-face {
     font-family: Gobold;
     src: url(./assets/fonts/Gobold\ Hollow\ Bold.otf);
 }
+
+/* Textos: */
 @font-face {
     font-family: Gobold Lowplus;
     src: url(./assets/fonts/Gobold\ Lowplus.otf);
