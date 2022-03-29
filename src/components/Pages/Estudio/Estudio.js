@@ -16,4 +16,3 @@ const Estudio = () => {
 }
 
 export default Estudio;
-
