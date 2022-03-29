@@ -10,7 +10,6 @@ import Contacto from './components/Pages/Contacto/Contacto';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
 import MainContainer from './components/MainContainer/MainContainer';
 import MainTitle from './assets/images/mainTitle.png';
-import Servicios from './components/Pages/Servicios/Servicios';
 import './App.css';
 
 function App() {
@@ -32,11 +31,6 @@ function App() {
                 path="/estudio" 
                 exact 
                 element={ <Estudio/> } 
-            />
-            <Route
-                path="/servicios" 
-                exact 
-                element={ <Servicios/> } 
             />
             <Route
                 path="/equipo" 
