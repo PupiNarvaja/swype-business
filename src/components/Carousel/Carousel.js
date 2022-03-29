@@ -12,8 +12,8 @@ const Carousel = () => {
             <Splide
                 renderControls={ () => (
                     <div className="splide__arrows">
-                        <button className="splide__arrow splide__arrow--prev"><img src={prev}></img></button>
-                        <button className="splide__arrow splide__arrow--next"><img src={next}></img></button>
+                        <button className="splide__arrow splide__arrow--prev"><img src={prev} alt='Flecha previa'></img></button>
+                        <button className="splide__arrow splide__arrow--next"><img src={next} alt='Flecha siguiente'></img></button>
                     </div>
                 )}
                 options={ {
