@@ -1,0 +1,48 @@
+/* .container {
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+
+.main {
+    width: 100%;
+    background-image: url(/src/assets/images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top center; */
+    background-position: right;
+    min-height: 110vh;
+}
+
+.main--container {
+    position: relative;
+    top: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main .main--title--img {
+    width: clamp(250px, 330px + 20vw, 638px);
+}
+
+.main .main--title {
+    font-family: Gobold Lowplus;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 460px) {
+    .main .main--title {
+        font-size: 6.6rem;
+        line-height: 6.6rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .main--container {
+        justify-content: space-between;
+    }
+}

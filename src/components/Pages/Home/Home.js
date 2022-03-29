@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Home.css';
-import title from '../../../assets/images/mainTitle.png';
 import user from '../../../assets/images/user.png'
 import MainButton from '../../MainButton/MainButton';
 import Carousel from '../../Carousel/Carousel';
@@ -9,11 +7,6 @@ import Carousel from '../../Carousel/Carousel';
 const Home = () => {
     return (
         <>
-            <div className='home'>
-                <div className='home--container container'>
-                    <img src={title} alt='Main title' className='home--title'></img>
-                </div>
-            </div>
             <div className='estudio--container container'>
                 <h2>EL ESTUDIO</h2>
                 <div className='estudio--p'>

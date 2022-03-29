@@ -31,12 +31,12 @@ a:visited {
 
 @media (min-width: 0px) {
     :root {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 @media (min-width: 360px) {
     :root {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 @media (min-width: 1200px) {
@@ -53,6 +53,10 @@ Textos: Acumin Variable Concept */
 @font-face {
     font-family: Gobold;
     src: url(./assets/fonts/Gobold\ Hollow\ Bold.otf);
+}
+@font-face {
+    font-family: Gobold Lowplus;
+    src: url(./assets/fonts/Gobold\ Lowplus.otf);
 }
 @font-face {
     font-family: "Acumin Variable Concept";

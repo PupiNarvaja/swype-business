@@ -3,6 +3,9 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Home from './components/Pages/Home/Home';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
+import MainContainer from './components/MainContainer/MainContainer';
+import MainTitle from './assets/images/mainTitle.png';
+import Servicios from './components/Pages/Servicios/Servicios';
 import './App.css';
 
 function App() {
@@ -13,7 +16,12 @@ function App() {
             <Route
                 path="/" 
                 exact 
-                element={ <Home/> } 
+                element={ <MainContainer title={MainTitle} typeOfTitle='img' content={<Home />} /> } 
+            />
+            <Route
+                path="/servicios" 
+                exact 
+                element={ <MainContainer title='SERVICIOS' typeOfTitle='h1' content={<Servicios />} /> } 
             />
         </Routes>
         <WhatsAppBtn />

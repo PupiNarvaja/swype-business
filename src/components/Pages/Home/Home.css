@@ -7,31 +7,8 @@
 h2 {
     font-family: Gobold;
     font-size: 4.44rem;
-    line-height: 80px;
+    line-height: 5.3rem;
     color: var(--turquoise);
-}
-
-/* HOME */
-.home {
-    width: 100%;
-    background-image: url(/src/assets/images/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    min-height: 110vh;
-}
-
-.home .home--title {
-    max-width: 638px;
-    width: clamp(250px, 330px + 20vw, 60vw);
-}
-
-.home--container {
-    position: relative;
-    top: 176px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 /* EL ESTUDIO  */
