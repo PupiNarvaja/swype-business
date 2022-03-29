@@ -10,4 +10,4 @@ const Equipo = () => {
   )
 }
 
-export default Equipo
+export default Equipo;

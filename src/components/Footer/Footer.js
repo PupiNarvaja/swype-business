@@ -1,15 +1,16 @@
 import React from 'react';
+import mail from '../../assets/images/mail.png';
+import whatsapp from '../../assets/images/whatsapp.png';
+import instagram from '../../assets/images/instagram.png';
+import facebook from '../../assets/images/facebook.png';
 import './Footer.css';
-import mail from '../../assets/images/mail.png'
-import whatsapp from '../../assets/images/whatsapp.png'
-import instagram from '../../assets/images/instagram.png'
-import facebook from '../../assets/images/facebook.png'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer--container container'>
                 <h2 className='title'>CONTACTO</h2>
+                <h2 className='title title--clientes'>Contacto</h2>
                 <div className='footer__contactDivs'>
                     <div className='footer__bubble'>
                         <div className='contact--div'>
@@ -38,3 +39,5 @@ const Footer = () => {
 }
 
 export default Footer;
+
+
