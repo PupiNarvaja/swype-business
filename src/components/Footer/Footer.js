@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer--container container'>
-                <h2>CONTACTO</h2>
+                <h2 className='title'>CONTACTO</h2>
                 <div className='footer__contactDivs'>
                     <div className='footer__bubble'>
                         <div className='contact--div'>

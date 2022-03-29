@@ -32,6 +32,7 @@
     font-weight: 400;
     text-align: center;
     color: white;
+    text-transform: uppercase;
 }
 
 @media (min-width: 460px) {

@@ -17,13 +17,13 @@
 
 .footer--container h2 {
     margin: 0 auto 100px auto;
+    min-height: unset;
 }
 
 .footer__contactDivs {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    
 }
 
 .footer--container .footer__bubble {

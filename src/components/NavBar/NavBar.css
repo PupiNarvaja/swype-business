@@ -3,7 +3,7 @@
     background-color: var(--white0-7);
     height: 43px;
     position: absolute;
-    display: none; /* TEMPORAL */
+    /*display: none;  TEMPORAL */
 }
 
 .header .header--container {

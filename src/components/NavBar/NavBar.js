@@ -4,7 +4,6 @@ import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import logo from '../../assets/images/logo.png'
 import './NavBar.css';
 
-
 const NavBar = () => {
   return (
     <header className='header'>
@@ -23,10 +22,12 @@ const NavBar = () => {
               </ul>
           </nav>
           <div className='social--container'>
-            <a href='https://www.instagram.com/swypecreativo/'>
+            <a href='https://www.instagram.com/swypecreativo/' target="_blank" rel='noreferrer noopener'>
               <AiFillInstagram />
             </a>
-            <AiFillFacebook />
+            <a href='https://www.facebook.com/swypecreativo/' target="_blank" rel='noreferrer noopener'>
+              <AiFillFacebook />
+            </a>
           </div>
         </div>
       </div>

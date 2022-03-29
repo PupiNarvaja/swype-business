@@ -29,6 +29,15 @@ a:visited {
     color: black;
 }
 
+/* CLASES DE UTILIDAD GENERALES */
+.title {
+    font-family: Gobold;
+    font-size: 4.44rem;
+    line-height: 5.3rem;
+    color: var(--turquoise);
+    text-transform: uppercase;
+}
+
 @media (min-width: 0px) {
     :root {
         font-size: 10px;
@@ -47,13 +56,13 @@ a:visited {
 
 /* FONTS */ 
 
-/* Titulares: Gobold
-Textos: Acumin Variable Concept */
-
+/* Titulares: */
 @font-face {
     font-family: Gobold;
     src: url(./assets/fonts/Gobold\ Hollow\ Bold.otf);
 }
+
+/* Textos: */
 @font-face {
     font-family: Gobold Lowplus;
     src: url(./assets/fonts/Gobold\ Lowplus.otf);

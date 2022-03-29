@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <>
             <div className='estudio--container container'>
-                <h2>EL ESTUDIO</h2>
+                <h2 className='title'>El Estudio</h2>
                 <div className='estudio--p'>
                     <p>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
                     <br></br>
@@ -19,7 +19,7 @@ const Home = () => {
                 <MainButton text="Conocé más" destiny="/estudio"/>
             </div>
             <div className='servicios--container container'>
-                <h2>SERVICIOS</h2>
+                <h2 className='title'>Servicios</h2>
                 <div className='servicios--wrapper'>
                     <div className='servicios--card card-1'>
                         <h3>Creatividad y Diseño</h3>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <div className='equipo--wrapper'>
                 <div className='equipo--container container'>
-                    <h2>EL EQUIPO</h2>
+                    <h2 className='title'>El Equipo</h2>
                     <div className='users--container'>
                         <div className='max-width-313'>
                             <img src={user} alt='miembro del equipo'></img>
@@ -56,7 +56,7 @@ const Home = () => {
                 <MainButton text="Conocé más" destiny="/equipo"/>
             </div>
             <div className='clientes--container'>
-                <h2 className='container'>CLIENTES</h2>
+                <h2 className='title container'>Clientes</h2>
                 <Carousel />
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>
