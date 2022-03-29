@@ -13,7 +13,7 @@ const Servicios = () => {
     return (
         <div className="servicios">
             <section className="creatividadYDiseno">
-                <h2>CREATIVIDAD Y DISEÑO</h2>
+                <h2 className='title'>Creatividad y Diseño</h2>
                 <h4>INVERTÍ EN LA EMPRESA QUE SOS, PARA CONVERTIRTE EN LA EMPRESA QUE QUERÉS SER.</h4>
                 <p className="disenoGrafico__description description">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
                 <div className="disenoGrafico--title title">
@@ -61,7 +61,7 @@ const Servicios = () => {
                 </div>
             </section>
             <section className="marketingYComunicacion">
-                <h2>MARKETING Y COMUNICACIÓN</h2>
+                <h2 className='title'>Marketing y Comunicación</h2>
                 <h4>EN LOS DETALLES ESTÁ LA DIFERENCIA. MÁS FUNCIONALIDAD. MÁS IMPACTO.</h4>
                 <p className="marketingYComunicacion__description description">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
                 <div className="marketingDigital--title title">
@@ -110,7 +110,7 @@ const Servicios = () => {
                 </div>
             </section>
             <section className="gestionDeRedesSociales">
-                <h2>GESTIÓN DE REDES SOCIALES</h2>
+                <h2 className='title'>Gestión de Redes Sociales</h2>
                 <h4>EL ÉXITO ESTÁ EN INTERACTUAR MIENTRAS LOS OTROS SÓLO POSTEAN.</h4>
                 <p className="gestionDeRedesSociales__description description">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div className="communityManager--title title">
