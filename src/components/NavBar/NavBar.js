@@ -4,7 +4,6 @@ import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import logo from '../../assets/images/logo.png';
 import './NavBar.css';
 
-
 const NavBar = () => {
   return (
     <header className='header'>
@@ -36,4 +35,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;

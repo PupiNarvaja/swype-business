@@ -10,10 +10,10 @@
     width: 98%;
 }
 
-h2,
-h3,
-h4,
-p {
+.servicios h2,
+.servicios h3,
+.servicios h4,
+.servicios p {
     text-align: center;
     font-weight: 400;
 }
@@ -28,9 +28,9 @@ p {
 
 .servicios img,
 .servicios p,
-.grid1,
-.grid2,
-.grid3 {
+.servicios .grid1,
+.servicios .grid2,
+.servicios .grid3 {
     margin: 0;
 }
 
@@ -103,7 +103,7 @@ p {
     grid-template-columns: 100%;
 }
 
-.title {
+.servicios__title {
     min-height: 13.05rem;
     display: flex;
     align-items: flex-end;

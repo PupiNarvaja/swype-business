@@ -4,16 +4,6 @@
     margin: 0 auto;
 }
 
-.title {
-    font-family: 'Gobold';
-    font-size: clamp(60px, 20px + 10vw, 80px);
-    line-height: 80px;
-    text-align: center;
-    color: rgba(74, 189, 172, 1);
-    margin-bottom: 90px;
-    text-transform: uppercase;
-}
-
 /* EL ESTUDIO  */
 .estudio--container {
     width: 90%;
