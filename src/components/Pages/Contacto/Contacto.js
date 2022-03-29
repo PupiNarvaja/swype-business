@@ -4,10 +4,10 @@ const Contacto = () => {
   return (
     <>
         <div className='home'>
-
+          
         </div>
     </>
   )
 }
 
-export default Contacto
+export default Contacto;

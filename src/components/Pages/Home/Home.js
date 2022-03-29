@@ -56,7 +56,7 @@ const Home = () => {
                 <MainButton text="Conocé más" destiny="/equipo"/>
             </div>
             <div className='clientes--container'>
-                <h2 className='container title'>Clientes</h2>
+                <h2 className='title container'>Clientes</h2>
                 <Carousel />
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>

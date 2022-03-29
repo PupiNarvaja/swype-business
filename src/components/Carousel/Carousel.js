@@ -29,7 +29,7 @@ const Carousel = () => {
                             perPage: 2,
                             focus: 1
                         },
-                  }
+                    }
                 } }
             >
                 <SplideSlide>
