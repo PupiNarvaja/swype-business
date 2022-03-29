@@ -13,10 +13,10 @@ const Servicios = () => {
     return (
         <div className="servicios">
             <section className="creatividadYDiseno">
-                <h2>CREATIVIDAD Y DISEÑO</h2>
+                <h2 className="title">Creatividad Y Diseño</h2>
                 <h4>INVERTÍ EN LA EMPRESA QUE SOS, PARA CONVERTIRTE EN LA EMPRESA QUE QUERÉS SER.</h4>
                 <p className="disenoGrafico__description description">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
-                <div className="disenoGrafico--title title">
+                <div className="disenoGrafico--title servicios__title">
                     <img src={disenoGrafico} alt='diseño grafico'></img>
                     <h3>DISEÑO GRÁFICO</h3>
                 </div>
@@ -49,7 +49,7 @@ const Servicios = () => {
                         </div>
                     </div>
                 </div>
-                <div className="fotografia--title title">
+                <div className="fotografia--title servicios__title">
                     <h3>FOTOGRAFÍA</h3>
                     <img src={fotografia} alt='cámara'></img>
                 </div>
@@ -61,10 +61,10 @@ const Servicios = () => {
                 </div>
             </section>
             <section className="marketingYComunicacion">
-                <h2>MARKETING Y COMUNICACIÓN</h2>
+                <h2 className="title">Marketing Y Comunicación</h2>
                 <h4>EN LOS DETALLES ESTÁ LA DIFERENCIA. MÁS FUNCIONALIDAD. MÁS IMPACTO.</h4>
                 <p className="marketingYComunicacion__description description">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
-                <div className="marketingDigital--title title">
+                <div className="marketingDigital--title servicios__title">
                     <img src={marketingDigital} alt='marketing digital'></img>
                     <h3>MARKETING DIGITAL</h3>
                 </div>
@@ -87,7 +87,7 @@ const Servicios = () => {
                         </div>
                     </div>
                 </div>
-                <div className="marketingTradicional--title title">
+                <div className="marketingTradicional--title servicios__title">
                     <h3>MARKETING TRADICIONAL</h3>
                     <img src={marketingTradicional} alt='marketing tradicional'></img>
                 </div>
@@ -110,10 +110,10 @@ const Servicios = () => {
                 </div>
             </section>
             <section className="gestionDeRedesSociales">
-                <h2>GESTIÓN DE REDES SOCIALES</h2>
+                <h2 className="title">Gestión De Redes Sociales</h2>
                 <h4>EL ÉXITO ESTÁ EN INTERACTUAR MIENTRAS LOS OTROS SÓLO POSTEAN.</h4>
                 <p className="gestionDeRedesSociales__description description">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
-                <div className="communityManager--title title">
+                <div className="communityManager--title servicios__title">
                     <img src={communityManager} alt='community manager'></img>
                     <h3>COMMUNITY MANAGER</h3>
                 </div>
@@ -125,7 +125,7 @@ const Servicios = () => {
                         <p>Monitoreo de comentarios e interacciones</p>
                     </div>
                 </div>
-                <div className="gestionDeComunidades--title title">
+                <div className="gestionDeComunidades--title servicios__title">
                     <h3>GESTIÓN DE COMUNIDADES</h3>
                     <img src={gestionDeComunidades} alt='gestion de comunidades'></img>
                 </div>
@@ -144,7 +144,7 @@ const Servicios = () => {
                         </div>
                     </div>
                 </div>
-                <div className="publicidadDigital--title title">
+                <div className="publicidadDigital--title servicios__title">
                     <h3>PUBLICIDAD DIGITAL</h3>
                     <img src={publicidadDigital} alt='publicidad digital'></img>
                 </div>
@@ -153,7 +153,7 @@ const Servicios = () => {
                         <p>Creacion, ejecucion y monitoreo de pauta publicitaria en plataformas Ads</p>
                     </div>
                 </div>
-                <div className="desarrolloWeb--title title">
+                <div className="desarrolloWeb--title servicios__title">
                     <h3>DESARROLLO WEB</h3>
                     <img src={desarrolloWeb} alt='desarrollo web'></img>
                 </div>
