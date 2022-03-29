@@ -6,22 +6,15 @@
 
 /* EL ESTUDIO  */
 .estudio--container {
-    max-width: 1200px;
-    margin: 0 auto;
     width: 90%;
-    height: 1000px; /* temporal */
     display: flex;
     flex-flow: column nowrap;
+    margin-bottom: 110px;
 }
 
-.title {
-    font-family: 'Gobold';
-    font-size: clamp(60px, 20px + 10vw, 80px);
-    line-height: 80px;
+.estudio--container h2 {
     text-align: center;
-    color: rgba(74, 189, 172, 1);
-    margin-bottom: 90px;
-    text-transform: uppercase;
+    margin-bottom: 110px;
 }
 
 .estudio--container .estudio--p {
@@ -37,61 +30,185 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin: 0 auto;
+    margin-bottom: 32px;
 }
 
 .estudio--container .estudio--p p {
     font-family: Acumin Variable Concept;
-    font-size: clamp(18px, 5px + 2vw, 24px);
+    font-size: 1.33rem;
     line-height: 24px;
     color: white;
 }
 
-.estudio--container button {
-    background: #4ABDAC;
-    border-radius: 100px;
-    border: none;
-    padding: 0 42px;
-    font-family: 'Acumin Variable Concept';
-    font-size: 20px;
-    line-height: 50px;
-    color: white;
-    margin: 32px auto 0 auto;
-    display: block;
-    max-width: 196px;
-    cursor: pointer;
-    transition: all 500ms ease 0s;
+/* SERVICIOS  */
+.servicios--container {
+    width: 90%;
+    margin-bottom: 110px;
 }
 
-.estudio--container button:hover {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.servicios--container h2 {
+    text-align: center;
+    margin-bottom: 95px;
 }
+
+.servicios--container .servicios--wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.servicios--wrapper .card-1 {
+    background-image: url(../../../assets/images/homeServicio1.png);
+}
+
+.servicios--wrapper .card-2 {
+    background-image: url(../../../assets/images/homeServicio2.png);
+}
+
+.servicios--wrapper .card-3 {
+    background-image: url(../../../assets/images/homeServicio3.png);
+}
+
+.servicios--container .servicios--card {
+    min-width: 310px;
+    width: 21.5rem;
+    min-height: 25.55rem;
+    padding: 45px 60px;
+    margin: 22.5px;
+    background-repeat: round;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.servicios--card h3 {
+    font-family: Acumin Variable Concept;
+    font-size: 2.22rem;
+    font-weight: 400;
+    line-height: 2.22rem;
+    text-align: center;
+}
+
+.servicios--container .circle {
+    width: 8.44rem;
+    height: 8.44rem;
+    margin: 2.22rem 0 1.11rem 0;
+    border-radius: 100%;
+    background-color: var(--gray);
+}
+
+.servicios--container p {
+    font-family: Acumin Variable Concept;
+    font-size: 1.28rem;
+    font-weight: 400;
+    line-height: 1.28rem;
+    text-align: center;
+    width: 123%;
+}
+
+/* EL EQUIPO */
+.equipo--wrapper {
+    background-image: url(../../../assets/images/horizontalCurves.png);
+    background-size: 470px 1120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+}
+
+.equipo--container {
+    position: relative;
+    top: -100px;
+}
+
+.equipo--container h2 {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.equipo--container .users--container {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 75px 0;
+}
+
+.max-width-313 {
+    max-width: 313px;
+    margin: 0 10px;
+}
+
+.max-width-313 img {
+    width: 100%;
+}
+
+/* CLIENTES */
+.clientes--container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.clientes--container h2 {
+    margin: 110px auto 90px auto;
+    text-align: center;
+}
+
+.clientes--container .carousel--container {
+    margin-bottom: 100px;
+}
+
 
 @media (min-width: 768px) {
-    .container {
-        padding-left: 100px;
+    .equipo--wrapper {
+        background-image: url(../../../assets/images/curves.png);
+        background-size: 102%;
+        background-position: 50% 57%;
+    }
+    .equipo--container .users--container {
+        flex-flow: row nowrap;
         justify-content: space-between;
     }
 }
 
-@media (min-width: 1300px) {
-    .estudio--container h2 {
-        padding-right: 190px;
-    }    
+@media (min-width: 900px) {
+    .container {
+        padding: 0 50px;
+    }
+    .home--container {
+        justify-content: space-between;
+    }
+    .estudio--container,
+    .servicios--container,
+    .equipo--container {
+        width: unset;
+    }
+    /* SERVICIOS */
+    .servicios--container h2 {
+        text-align: start;
+        padding-left: 10px;
+    }
 }
 
-/* @media (min-width: 768px) {
-    :root {
-        font-size: 6.4px;
+@media (min-width: 1100px) {
+    .estudio--container h2 {
+        text-align: end;
+    }
+    .estudio--container .button--container,
+    .estudio--container h2 {
+        justify-content: flex-end;
+        width: 88%;
+        max-width: 690px;
+    }
+    /* SERVICIOS */
+    .servicios--container .card-1 {
+        margin-left: 0;
+    }
+    /* EL EQUIPO */
+    .equipo--container h2 {
+        text-align: end;
+        margin-right: 20px;
+    }
+    /* CLIENTES */
+    .clientes--container h2 {
+        text-align: start;
     }
 }
-@media (min-width: 1024px) {
-    :root {
-        font-size: 8.5px;
-    }
-}
-@media (min-width: 1440px) {
-    :root {
-        font-size: 12px;
-    }
-} */
