@@ -8,6 +8,9 @@ import Equipo from './components/Pages/Equipo/Equipo';
 import Clientes from './components/Pages/Clientes/Clientes';
 import Contacto from './components/Pages/Contacto/Contacto';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
+import MainContainer from './components/MainContainer/MainContainer';
+import MainTitle from './assets/images/mainTitle.png';
+import Servicios from './components/Pages/Servicios/Servicios';
 import './App.css';
 
 function App() {
@@ -18,7 +21,12 @@ function App() {
             <Route
                 path="/" 
                 exact 
-                element={ <Home/> } 
+                element={ <MainContainer title={MainTitle} typeOfTitle='img' content={<Home />} /> } 
+            />
+            <Route
+                path="/servicios" 
+                exact 
+                element={ <MainContainer title='SERVICIOS' typeOfTitle='h1' content={<Servicios />} /> } 
             />
             <Route
                 path="/estudio" 

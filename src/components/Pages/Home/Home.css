@@ -1,25 +1,7 @@
-.home {
-    width: 100%;
-    background-image: url(/src/assets/images/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    min-height: 110vh;
-}
-
-.home .home--title {
-    max-width: 638px;
-    width: clamp(250px, 330px + 20vw, 60vw);
-}
-
+/* GENERAL */
 .container {
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
-    position: relative;
-    top: 176px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 /* EL ESTUDIO  */
