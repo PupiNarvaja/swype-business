@@ -4,7 +4,7 @@ const Contacto = () => {
   return (
     <>
         <div className='home'>
-          
+
         </div>
     </>
   )

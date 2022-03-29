@@ -35,6 +35,10 @@
     text-transform: uppercase;
 }
 
+.main--title{
+    text-transform: uppercase;
+}
+
 @media (min-width: 460px) {
     .main .main--title {
         font-size: 6.6rem;

@@ -4,7 +4,7 @@ const Equipo = () => {
   return (
     <>
         <div className='home'>
-          
+
         </div>
     </>
   )

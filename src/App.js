@@ -25,27 +25,27 @@ function App() {
             <Route
                 path="/servicios" 
                 exact 
-                element={ <MainContainer title='SERVICIOS' typeOfTitle='h1' content={<Servicios />} /> } 
+                element={ <MainContainer title='Servicios' typeOfTitle='h1' content={<Servicios />} /> } 
             />
             <Route
                 path="/estudio" 
                 exact 
-                element={ <Estudio/> } 
+                element={ <MainContainer title='El Estudio' typeOfTitle='h1' content={<Estudio />} /> } 
             />
             <Route
                 path="/equipo" 
                 exact 
-                element={ <Equipo/> } 
+                element={ <MainContainer title='El Equipo' typeOfTitle='h1' content={<Equipo />} /> } 
             />
             <Route
                 path="/clientes" 
                 exact 
-                element={ <Clientes/> } 
+                element={ <MainContainer title='Clientes' typeOfTitle='h1' content={<Clientes />} /> }
             />
             <Route
                 path="/contacto" 
                 exact 
-                element={ <Contacto/> } 
+                element={ <MainContainer title='Contacto' typeOfTitle='h1' content={<Contacto />} /> }
             />
         </Routes>
         <WhatsAppBtn />

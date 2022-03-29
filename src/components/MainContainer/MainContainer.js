@@ -6,7 +6,7 @@ const MainContainer = ({ title, typeOfTitle, content }) => {
         <>
             <div className='main'>
                 <div className='main--container container'>
-                    {typeOfTitle == 'img' ?
+                    {typeOfTitle === 'img' ?
                     <img src={title} alt='Main title' className='main--title--img'></img>
                     :
                     <h1 className='main--title'>{title}</h1>}
