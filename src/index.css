@@ -29,6 +29,15 @@ a:visited {
     color: black;
 }
 
+/* CLASES DE UTILIDAD GENERALES */
+.title {
+    font-family: Gobold;
+    font-size: 4.44rem;
+    line-height: 5.3rem;
+    color: var(--turquoise);
+    text-transform: uppercase;
+}
+
 @media (min-width: 0px) {
     :root {
         font-size: 10px;
