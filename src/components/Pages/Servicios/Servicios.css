@@ -42,23 +42,20 @@
     margin: 0 auto;
 }
 
-.servicios h2 {
+.servicios .title-90 {
     font-size: 5rem;
-    margin-bottom: 50px;
+    margin-bottom: 3.33rem;
 }
 
-.servicios h3 {
+.servicios .title-72 {
     font-family: Gobold;
     font-size: 4rem;
     line-height: 4.8rem;
     color: var(--turquoise);
-    position: absolute;
-    left: 0;
-    right: 0;
     text-transform: uppercase;
 }
 
-.servicios h4 {
+.servicios .title-48 {
     font-family: Gobold Lowplus;
     font-size: 2.6rem;
     line-height: 2.8rem;
@@ -81,10 +78,6 @@
     border-radius: 5.55rem;
 }
 
-.servicios .p-title {
-    margin-bottom: 1.77rem;
-}
-
 .grid-2-cols {
     display: grid;
     -ms-grid-columns: 100%;
@@ -97,14 +90,28 @@
     grid-template-columns: 100%;
 }
 
+.servicios .absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .servicios__title {
     min-height: 13.05rem;
     display: flex;
     align-items: flex-end;
 }
 
+.servicios .mb-1_66 {
+    margin-bottom: 1.66rem;
+}
+
+.servicios .mb-2_22 {
+    margin-bottom: 2.22rem;
+}
+
 /* ---------- CREATIVIDAD Y DISEÑO ---------- */
-.creatividadYDiseno h4 {
+.servicios .creatividadYDiseno h4 {
     font-size: 2.22rem;
 }
 
@@ -121,10 +128,6 @@
     max-width: 13.05rem;
 }
 
-.disenoGrafico--title h3 {
-    margin-bottom: 1.66rem;
-}
-
 .disenoGrafico--div {
     padding: 3.61rem 2.7rem;
 }
@@ -137,11 +140,6 @@
 .fotografia--title {
     max-width: 47.2rem;
     justify-content: flex-end;
-    align-items: center;
-}
-
-.fotografia--title h3 {
-    margin-top: 1.66rem;
 }
 
 .fotografia--title img {
@@ -160,7 +158,6 @@
 }
 
 .marketingYComunicacion h4 {
-    font-size: 2.6rem;
     margin: 45px 0 55px 0;
 }
 
@@ -176,10 +173,6 @@
     max-width: 11.44rem;
 }
 
-.marketingDigital--title h3 {
-    margin-bottom: 1.94rem;
-}
-
 .marketingDigital--div {
     padding: 3.6rem 2.7rem 3.3rem 2.7rem;
     max-width: 57.1rem;
@@ -189,11 +182,6 @@
 .marketingTradicional--title {
     max-width: 67rem;
     justify-content: flex-end;
-    align-items: center;
-}
-
-.marketingTradicional--title h3 {
-    margin-top: 2.22rem;
 }
 
 .marketingTradicional--title img {
@@ -217,15 +205,10 @@
 /* ---- COMMUNITY MANAGER ---- */
 .communityManager--title {
     max-width: 60rem;
-    align-items: center;
 }
 
 .communityManager--title img {
     max-width: 9.5rem;
-}
-
-.communityManager--title h3 {
-    margin-top: 1.66rem;
 }
 
 .communityManager--div {
@@ -237,10 +220,6 @@
 .gestionDeComunidades--title {
     max-width: 64rem;
     justify-content: flex-end;
-}
-
-.gestionDeComunidades--title h3 {
-    margin-bottom: 1.38rem;
 }
 
 .gestionDeComunidades--title img {
@@ -262,10 +241,6 @@
     max-width: 56rem;
 }
 
-.publicidadDigital--title h3 {
-    margin-bottom: 1.6rem;
-}
-
 .publicidadDigital--title img {
     max-width: 9.5rem;
 }
@@ -279,12 +254,7 @@
 .desarrolloWeb--title {
     max-width: 62.22rem; /*  57.22rem; */
     justify-content: flex-end;
-    align-items: center;
     margin-top: 4rem;
-}
-
-.desarrolloWeb--title h3 {
-    margin-bottom: 2rem;
 }
 
 .desarrolloWeb--title img {
@@ -298,16 +268,12 @@
 
 /* ---- DESARROLLO UX/UI ---- */
 .desarrolloUxUi--title {
-    max-width: 57.22rem;
-    margin-top: 2.7rem;
+    max-width: 62.22rem;
+    margin-top: 4rem;
 }
 
 .desarrolloUxUi--title img {
     max-width: 10.72rem;
-}
-
-.desarrolloUxUi--title h3 {
-    margin-bottom: 3.33rem;
 }
 
 .desarrolloUxUi--div {
@@ -366,9 +332,6 @@
     }
     /* ---- DESARROLLO WEB ---- */
     /* ---- DESARROLLO UX/UI ---- */
-    .desarrolloWeb--title h3 {
-        font-size: 5rem;
-    }
     .desarrolloWeb--div,
     .desarrolloUxUi--div {
         width: 58rem;
