@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import user from '../../../assets/images/user.png'
+import user from '../../../assets/images/user.png';
 import MainButton from '../../MainButton/MainButton';
 import Carousel from '../../Carousel/Carousel';
 
