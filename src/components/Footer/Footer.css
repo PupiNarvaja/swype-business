@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-image: url(/src/assets/images/footer.jpg);
+    background-image: url(/src/assets/images/background/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -26,7 +26,7 @@
 }
 
 .footer--container .footer__bubble {
-    background-image: url(/src/assets/images/contact-background.png);
+    background-image: url(/src/assets/images/background/contact-background.png);
     background-repeat: round;
     height: 9.44rem;
     min-height: 9.44rem;

@@ -1,13 +1,13 @@
 import React from "react";
 import './Servicios.css';
-import disenoGrafico from '../../../assets/images/disenoGrafico.png';
-import fotografia from '../../../assets/images/fotografia.png';
-import marketingDigital from '../../../assets/images/marketingDigital.png';
-import marketingTradicional from '../../../assets/images/marketingTradicional.png';
-import communityManager from '../../../assets/images/communityManager.png';
-import gestionDeComunidades from '../../../assets/images/gestionDeComunidades.png';
-import publicidadDigital from '../../../assets/images/publicidadDigital.png';
-import desarrolloWeb from '../../../assets/images/desarrolloWeb.png';
+import disenoGrafico from '../../../assets/images/icons/disenoGrafico.png';
+import fotografia from '../../../assets/images/icons/fotografia.png';
+import marketingDigital from '../../../assets/images/icons/marketingDigital.png';
+import marketingTradicional from '../../../assets/images/icons/marketingTradicional.png';
+import communityManager from '../../../assets/images/icons/communityManager.png';
+import gestionDeComunidades from '../../../assets/images/icons/gestionDeComunidades.png';
+import publicidadDigital from '../../../assets/images/icons/publicidadDigital.png';
+import desarrolloWeb from '../../../assets/images/icons/desarrolloWeb.png';
 
 const Servicios = () => {
     return (
