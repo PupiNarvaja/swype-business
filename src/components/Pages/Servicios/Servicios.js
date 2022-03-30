@@ -8,17 +8,18 @@ import communityManager from '../../../assets/images/communityManager.png';
 import gestionDeComunidades from '../../../assets/images/gestionDeComunidades.png';
 import publicidadDigital from '../../../assets/images/publicidadDigital.png';
 import desarrolloWeb from '../../../assets/images/desarrolloWeb.png';
+import desarrolloUxUi from '../../../assets/images/desarrolloUxUi.png';
 
 const Servicios = () => {
     return (
         <div className="servicios">
             <section className="creatividadYDiseno">
                 <h2 className="title">Creatividad Y Diseño</h2>
-                <h4>INVERTÍ EN LA EMPRESA QUE SOS, PARA CONVERTIRTE EN LA EMPRESA QUE QUERÉS SER.</h4>
-                <p className="disenoGrafico__description description">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
+                <h4>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
+                <p className="creatividadYDiseno__description description">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
                 <div className="disenoGrafico--title servicios__title">
                     <img src={disenoGrafico} alt='diseño grafico'></img>
-                    <h3>DISEÑO GRÁFICO</h3>
+                    <h3>Diseño Gráfico</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="disenoGrafico--div inner--shadow grid-2-cols">
@@ -50,10 +51,10 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="fotografia--title servicios__title">
-                    <h3>FOTOGRAFÍA</h3>
+                    <h3>Fotografía</h3>
                     <img src={fotografia} alt='cámara'></img>
                 </div>
-                <div className="shadow-box-sm">
+                <div className="shadow-box">
                     <div className="fotografia--div inner--shadow">
                         <p>Fotografía de producto</p>
                         <p>Fotografía publicitaria para redes sociales</p>
@@ -62,11 +63,11 @@ const Servicios = () => {
             </section>
             <section className="marketingYComunicacion">
                 <h2 className="title">Marketing Y Comunicación</h2>
-                <h4>EN LOS DETALLES ESTÁ LA DIFERENCIA. MÁS FUNCIONALIDAD. MÁS IMPACTO.</h4>
+                <h4>En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
                 <p className="marketingYComunicacion__description description">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
                 <div className="marketingDigital--title servicios__title">
                     <img src={marketingDigital} alt='marketing digital'></img>
-                    <h3>MARKETING DIGITAL</h3>
+                    <h3>Marketing Digital</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="marketingDigital--div inner--shadow grid-1-row-2-cols">
@@ -88,7 +89,7 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="marketingTradicional--title servicios__title">
-                    <h3>MARKETING TRADICIONAL</h3>
+                    <h3>Marketing Tradicional</h3>
                     <img src={marketingTradicional} alt='marketing tradicional'></img>
                 </div>
                 <div className="shadow-box">
@@ -111,13 +112,13 @@ const Servicios = () => {
             </section>
             <section className="gestionDeRedesSociales">
                 <h2 className="title">Gestión De Redes Sociales</h2>
-                <h4>EL ÉXITO ESTÁ EN INTERACTUAR MIENTRAS LOS OTROS SÓLO POSTEAN.</h4>
+                <h4>El éxito está en interactuar mientras los otros sólo postean.</h4>
                 <p className="gestionDeRedesSociales__description description">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div className="communityManager--title servicios__title">
                     <img src={communityManager} alt='community manager'></img>
-                    <h3>COMMUNITY MANAGER</h3>
+                    <h3>Community Manager</h3>
                 </div>
-                <div className="shadow-box-sm">
+                <div className="shadow-box">
                     <div className="communityManager--div inner--shadow">
                         <p>Planificación y creación de contenido</p>
                         <p>Carga a redes sociales</p>
@@ -126,10 +127,10 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="gestionDeComunidades--title servicios__title">
-                    <h3>GESTIÓN DE COMUNIDADES</h3>
+                    <h3>Gestión De Comunidades</h3>
                     <img src={gestionDeComunidades} alt='gestion de comunidades'></img>
                 </div>
-                <div className="shadow-box-sm">
+                <div className="shadow-box">
                     <div className="gestionDeComunidades--div inner--shadow grid-2-cols">
                         <div>
                             <p>Administración de redes sociales</p>
@@ -145,23 +146,36 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="publicidadDigital--title servicios__title">
-                    <h3>PUBLICIDAD DIGITAL</h3>
+                    <h3>Publicidad Digital</h3>
                     <img src={publicidadDigital} alt='publicidad digital'></img>
                 </div>
-                <div className="shadow-box-sm">
+                <div className="shadow-box">
                     <div className="publicidadDigital--div inner--shadow">
                         <p>Creacion, ejecucion y monitoreo de pauta publicitaria en plataformas Ads</p>
                     </div>
                 </div>
                 <div className="desarrolloWeb--title servicios__title">
-                    <h3>DESARROLLO WEB</h3>
+                    <h3>Desarrollo Web</h3>
                     <img src={desarrolloWeb} alt='desarrollo web'></img>
                 </div>
-                <div className="shadow-box-sm">
+                <div className="shadow-box">
                     <div className="desarrolloWeb--div inner--shadow">
                         <p>Sitios web.</p>
                         <p>Tiendas virtuales.</p>
                         <p>Landing pages.</p>
+                    </div>
+                </div>
+                <div className="desarrolloUxUi--title servicios__title">
+                    <img src={desarrolloUxUi} alt='desarrollo ux y ui'></img>
+                    <h3>Desarrollo Ux Y Ui</h3>
+                </div>
+                <div className="shadow-box">
+                    <div className="desarrolloUxUi--div inner--shadow">
+                        <p className="p-title">Diseño y mejora de experiencia de usuarios en:</p>
+                        <p>Sitio Web</p>
+                        <p>Tiendas e-commercer</p>
+                        <p>Aplicaciones</p>
+                        <p>Creación de interfaces.</p>
                     </div>
                 </div>
             </section>
