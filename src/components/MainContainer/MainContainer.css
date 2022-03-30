@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    background-image: url(/src/assets/images/fondo1.jpg);
+    background-image: url(/src/assets/images/background/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: top center; */

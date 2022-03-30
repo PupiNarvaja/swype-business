@@ -1,8 +1,8 @@
 import React from 'react';
-import mail from '../../assets/images/mail.png';
-import whatsapp from '../../assets/images/whatsapp.png';
-import instagram from '../../assets/images/instagram.png';
-import facebook from '../../assets/images/facebook.png';
+import mail from '../../assets/images/icons/mail.png';
+import whatsapp from '../../assets/images/icons/whatsapp.png';
+import instagram from '../../assets/images/icons/instagram.png';
+import facebook from '../../assets/images/icons/facebook.png';
 import './Footer.css';
 
 const Footer = () => {
