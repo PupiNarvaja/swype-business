@@ -1,0 +1,25 @@
+/* GENERAL */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.icons {
+    max-width: 65.72rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.83rem 1.27rem;
+}
+
+.icons img {
+    max-width: 8.803rem;
+}
+
+
+@media (min-width: 768px) {
+    .icons {
+        gap: 0.83rem 5.27rem;
+    }
+}
