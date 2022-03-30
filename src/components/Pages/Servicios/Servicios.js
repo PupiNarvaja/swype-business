@@ -14,12 +14,12 @@ const Servicios = () => {
     return (
         <div className="servicios">
             <section className="creatividadYDiseno">
-                <h2 className="title">Creatividad Y Diseño</h2>
-                <h4>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
+                <h2 className="title title-90">Creatividad Y Diseño</h2>
+                <h4 className="title-48">Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
                 <p className="creatividadYDiseno__description description">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
                 <div className="disenoGrafico--title servicios__title">
                     <img src={disenoGrafico} alt='diseño grafico'></img>
-                    <h3>Diseño Gráfico</h3>
+                    <h3 className="title-72 mb-1_66 absolute">Diseño Gráfico</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="disenoGrafico--div inner--shadow grid-2-cols">
@@ -51,7 +51,7 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="fotografia--title servicios__title">
-                    <h3>Fotografía</h3>
+                    <h3 className="title-72 mb-1_66 absolute">Fotografía</h3>
                     <img src={fotografia} alt='cámara'></img>
                 </div>
                 <div className="shadow-box">
@@ -62,16 +62,16 @@ const Servicios = () => {
                 </div>
             </section>
             <section className="marketingYComunicacion">
-                <h2 className="title">Marketing Y Comunicación</h2>
-                <h4>En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
+                <h2 className="title title-90">Marketing Y Comunicación</h2>
+                <h4 className="title-48">En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
                 <p className="marketingYComunicacion__description description">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
                 <div className="marketingDigital--title servicios__title">
                     <img src={marketingDigital} alt='marketing digital'></img>
-                    <h3>Marketing Digital</h3>
+                    <h3 className="title-72 mb-2_22 absolute">Marketing Digital</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="marketingDigital--div inner--shadow grid-1-row-2-cols">
-                        <p className="grid1 p-title">Estrategia de Marketing y Comunicación en redes sociales:</p>
+                        <p className="grid1 mb-1_66">Estrategia de Marketing y Comunicación en redes sociales:</p>
                         <div className="grid2">
                             <p>Diagnóstico.</p>
                             <p>Objetivo Estratégico.</p>
@@ -89,12 +89,12 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="marketingTradicional--title servicios__title">
-                    <h3>Marketing Tradicional</h3>
+                    <h3 className="title-72 mb-2_22 absolute">Marketing Tradicional</h3>
                     <img src={marketingTradicional} alt='marketing tradicional'></img>
                 </div>
                 <div className="shadow-box">
                     <div className="marketingTradicional--div inner--shadow grid-1-row-2-cols">
-                        <p className="grid1 p-title">Plan integral de Marketing:</p>
+                        <p className="grid1 mb-1_66">Plan integral de Marketing:</p>
                         <div className="grid2">
                             <p>Planteo del OMEP.</p>
                             <p>(Objetivo, metas,<br /> estrategias<br /> Xy Programa).</p>
@@ -111,12 +111,12 @@ const Servicios = () => {
                 </div>
             </section>
             <section className="gestionDeRedesSociales">
-                <h2 className="title">Gestión De Redes Sociales</h2>
-                <h4>El éxito está en interactuar mientras los otros sólo postean.</h4>
+                <h2 className="title title-90">Gestión De Redes Sociales</h2>
+                <h4 className="title-48">El éxito está en interactuar mientras los otros sólo postean.</h4>
                 <p className="gestionDeRedesSociales__description description">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div className="communityManager--title servicios__title">
                     <img src={communityManager} alt='community manager'></img>
-                    <h3>Community Manager</h3>
+                    <h3 className="title-72 mb-1_66 absolute">Community Manager</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="communityManager--div inner--shadow">
@@ -127,7 +127,7 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="gestionDeComunidades--title servicios__title">
-                    <h3>Gestión De Comunidades</h3>
+                    <h3 className="title-72 mb-1_66 absolute">Gestión De Comunidades</h3>
                     <img src={gestionDeComunidades} alt='gestion de comunidades'></img>
                 </div>
                 <div className="shadow-box">
@@ -146,7 +146,7 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="publicidadDigital--title servicios__title">
-                    <h3>Publicidad Digital</h3>
+                    <h3 className="title-72 mb-1_66 absolute">Publicidad Digital</h3>
                     <img src={publicidadDigital} alt='publicidad digital'></img>
                 </div>
                 <div className="shadow-box">
@@ -155,7 +155,7 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="desarrolloWeb--title servicios__title">
-                    <h3>Desarrollo Web</h3>
+                    <h2 className="title title-90 absolute">Desarrollo Web</h2>
                     <img src={desarrolloWeb} alt='desarrollo web'></img>
                 </div>
                 <div className="shadow-box">
@@ -167,11 +167,11 @@ const Servicios = () => {
                 </div>
                 <div className="desarrolloUxUi--title servicios__title">
                     <img src={desarrolloUxUi} alt='desarrollo ux y ui'></img>
-                    <h3>Desarrollo Ux Y Ui</h3>
+                    <h2 className="title title-90 absolute">Desarrollo Ux Y Ui</h2>
                 </div>
                 <div className="shadow-box">
                     <div className="desarrolloUxUi--div inner--shadow">
-                        <p className="p-title">Diseño y mejora de experiencia de usuarios en:</p>
+                        <p className="mb-1_66">Diseño y mejora de experiencia de usuarios en:</p>
                         <p>Sitio Web</p>
                         <p>Tiendas e-commercer</p>
                         <p>Aplicaciones</p>
