@@ -22,7 +22,7 @@
     padding-bottom: clamp(50px, 10px + 8vw, 100px);
     padding-left: clamp(35px, 2px + 4vw, 55px);
     padding-right: clamp(25px, 2px + 4vw, 55px);
-    background-image: url(/src/assets/images/paragraph-background.png);
+    background-image: url(/src/assets/images/background/paragraph-background.png);
     background-repeat: round;
     background-size: cover;
     min-height: 370px;
@@ -58,15 +58,15 @@
 }
 
 .servicios--wrapper .card-1 {
-    background-image: url(../../../assets/images/homeServicio1.png);
+    background-image: url(../../../assets/images/background/homeServicio1.png);
 }
 
 .servicios--wrapper .card-2 {
-    background-image: url(../../../assets/images/homeServicio2.png);
+    background-image: url(../../../assets/images/background/homeServicio2.png);
 }
 
 .servicios--wrapper .card-3 {
-    background-image: url(../../../assets/images/homeServicio3.png);
+    background-image: url(../../../assets/images/background/homeServicio3.png);
 }
 
 .servicios--container .servicios--card {
@@ -108,7 +108,7 @@
 
 /* EL EQUIPO */
 .equipo--wrapper {
-    background-image: url(../../../assets/images/horizontalCurves.png);
+    background-image: url(../../../assets/images/background/horizontalCurves.png);
     background-size: 470px 1120px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@
 
 @media (min-width: 768px) {
     .equipo--wrapper {
-        background-image: url(../../../assets/images/curves.png);
+        background-image: url(../../../assets/images/background/curves.png);
         background-size: 102%;
         background-position: 50% 57%;
     }
