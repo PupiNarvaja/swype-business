@@ -1,0 +1,23 @@
+.carousel--container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.splide__slide {
+    display: flex;
+    justify-content: center;
+}
+.splide__arrow {
+    background: rgba(0, 0, 0, 0);
+    margin: 0 15px;
+}
+.splide__arrow img {
+    max-width: 4.44rem;
+}
+.splide .splide__arrow--next {
+    position: absolute;
+    right: 5px;
+}
+.splide .splide__arrow--prev {
+    position: absolute;
+    left: 5px;
+}

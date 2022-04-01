@@ -2,7 +2,8 @@ import React from 'react';
 import './Home.css';
 import user from '../../../assets/images/user.png';
 import MainButton from '../../MainButton/MainButton';
-import Carousel from '../../Carousel/Carousel';
+import Carousel from '../../CarouselContainer/Carousel/Carousel';
+import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
 
 const Home = () => {
     return (
@@ -57,7 +58,7 @@ const Home = () => {
             </div>
             <div className='clientes--container'>
                 <h2 className='title container'>Clientes</h2>
-                <Carousel />
+                <Carousel slides={HomeCarouselArray()} perPage={3} perPageBreakPoint={2}/>
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>
         </>

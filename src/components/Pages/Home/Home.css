@@ -70,7 +70,7 @@
 }
 
 .servicios--container .servicios--card {
-    min-width: 310px;
+    min-width: 270px;
     width: 21.5rem;
     min-height: 25.55rem;
     padding: 45px 60px;
@@ -133,7 +133,7 @@
 }
 
 .max-width-313 {
-    max-width: 313px;
+    max-width: 17.38rem;
     margin: 0 10px;
 }
 
