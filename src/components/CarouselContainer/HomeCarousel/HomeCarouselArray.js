@@ -6,7 +6,7 @@ const HomeCarouselArray = () => {
     
     for (let i = 0; i < 3; i++) {
         slides.push(
-            { id:"HomeCarousel" + [i], content: client, alt:"cliente" }
+            { key:"HomeCarousel" + [i], content: client, alt:"cliente", id: "HomeCarousel" }
         )
     }
     return slides;

@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding-top: 210px;
+    padding-top: 11.66rem;
 }
 
 .footer--container h2 {
@@ -47,8 +47,6 @@
 }
 
 .footer--container p {
-    font-family: Acumin Variable Concept;
-    font-size: 1.11rem;
     font-weight: 500;
     line-height: 20px;
     text-align: left;
