@@ -45,7 +45,7 @@
 
 .servicios--container h2 {
     text-align: center;
-    margin-bottom: 95px;
+    margin: 5.27rem 0;
 }
 
 .servicios--container .servicios--wrapper {
@@ -137,7 +137,7 @@
 /* CLIENTES */
 .clientes--container {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 
 .clientes--container h2 {
@@ -178,6 +178,10 @@
     .servicios--container h2 {
         text-align: start;
         padding-left: 10px;
+    }
+    /* CLIENTES */
+    .clientes--container {
+        margin: 0 auto;
     }
 }
 
