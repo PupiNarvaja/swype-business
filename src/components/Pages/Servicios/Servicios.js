@@ -16,7 +16,7 @@ const Servicios = () => {
             <section className="creatividadYDiseno">
                 <h2 className="title title-90">Creatividad Y Diseño</h2>
                 <h4 className="title-48">Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
-                <p className="creatividadYDiseno__description description">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
+                <p className="creatividadYDiseno__description description p-31">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
                 <div className="disenoGrafico--title servicios__title">
                     <img src={disenoGrafico} alt='diseño grafico'></img>
                     <h3 className="title-72 mb-1_66 absolute">Diseño Gráfico</h3>
@@ -24,29 +24,29 @@ const Servicios = () => {
                 <div className="shadow-box">
                     <div className="disenoGrafico--div inner--shadow grid-2-cols">
                         <div>
-                            <p>Identidad corporativa</p>
-                            <p>Diseño de Logo y distintas versiones</p>
-                            <p>Rediseño de logo</p>
-                            <p>Adaptación para redes sociales</p>
-                            <p>Definición de paleta de colores</p>
-                            <p>Definición de tipografías</p>
-                            <p>Elementos gráficos o pattern</p>
-                            <p>Manual de identidad</p>
-                            <p>Diseño completo de marchandising</p>
-                            <p>Packaging</p>
-                            <p>Diseño de brochure</p>
+                            <p className="p-31">Identidad corporativa</p>
+                            <p className="p-31">Diseño de Logo y distintas versiones</p>
+                            <p className="p-31">Rediseño de logo</p>
+                            <p className="p-31">Adaptación para redes sociales</p>
+                            <p className="p-31">Definición de paleta de colores</p>
+                            <p className="p-31">Definición de tipografías</p>
+                            <p className="p-31">Elementos gráficos o pattern</p>
+                            <p className="p-31">Manual de identidad</p>
+                            <p className="p-31">Diseño completo de marchandising</p>
+                            <p className="p-31">Packaging</p>
+                            <p className="p-31">Diseño de brochure</p>
                         </div>
                         <div>
-                            <p>Diseño de menú para restaurante</p>
-                            <p>Diseño de postal</p>
-                            <p>Diseño de revista</p>
-                            <p>Ilustración vectorial</p>
-                            <p>Diseño de carpeta institucional</p>
-                            <p>Diseño de hojas membretadas</p>
-                            <p>Diseño de sobres</p>
-                            <p>Tarjeta de eventos</p>
-                            <p>Tarjetas personales</p>
-                            <p>Folleteria</p>
+                            <p className="p-31">Diseño de menú para restaurante</p>
+                            <p className="p-31">Diseño de postal</p>
+                            <p className="p-31">Diseño de revista</p>
+                            <p className="p-31">Ilustración vectorial</p>
+                            <p className="p-31">Diseño de carpeta institucional</p>
+                            <p className="p-31">Diseño de hojas membretadas</p>
+                            <p className="p-31">Diseño de sobres</p>
+                            <p className="p-31">Tarjeta de eventos</p>
+                            <p className="p-31">Tarjetas personales</p>
+                            <p className="p-31">Folleteria</p>
                         </div>
                     </div>
                 </div>
@@ -56,35 +56,35 @@ const Servicios = () => {
                 </div>
                 <div className="shadow-box">
                     <div className="fotografia--div inner--shadow">
-                        <p>Fotografía de producto</p>
-                        <p>Fotografía publicitaria para redes sociales</p>
+                        <p className="p-31">Fotografía de producto</p>
+                        <p className="p-31">Fotografía publicitaria para redes sociales</p>
                     </div>
                 </div>
             </section>
             <section className="marketingYComunicacion">
                 <h2 className="title title-90">Marketing Y Comunicación</h2>
                 <h4 className="title-48">En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
-                <p className="marketingYComunicacion__description description">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
+                <p className="marketingYComunicacion__description description p-31">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
                 <div className="marketingDigital--title servicios__title">
                     <img src={marketingDigital} alt='marketing digital'></img>
                     <h3 className="title-72 mb-2_22 absolute">Marketing Digital</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="marketingDigital--div inner--shadow grid-1-row-2-cols">
-                        <p className="grid1 mb-1_66">Estrategia de Marketing y Comunicación en redes sociales:</p>
+                        <p className="grid1 mb-1_66 p-31">Estrategia de Marketing y Comunicación en redes sociales:</p>
                         <div className="grid2">
-                            <p>Diagnóstico.</p>
-                            <p>Objetivo Estratégico.</p>
-                            <p>Plan de ejecución.</p>
-                            <p>Reporting.</p>
-                            <p>Presupuesto.</p>
+                            <p className="p-31">Diagnóstico.</p>
+                            <p className="p-31">Objetivo Estratégico.</p>
+                            <p className="p-31">Plan de ejecución.</p>
+                            <p className="p-31">Reporting.</p>
+                            <p className="p-31">Presupuesto.</p>
                         </div>
                         <div className="grid3">
-                            <p>Inboud Mkt.</p>
-                            <p>Growth Mkt.</p>
-                            <p>Email Marketing.</p>
-                            <p>Seo.</p>
-                            <p>Publicidad en plataformas Ads.</p>
+                            <p className="p-31">Inboud Mkt.</p>
+                            <p className="p-31">Growth Mkt.</p>
+                            <p className="p-31">Email Marketing.</p>
+                            <p className="p-31">Seo.</p>
+                            <p className="p-31">Publicidad en plataformas Ads.</p>
                         </div>
                     </div>
                 </div>
@@ -94,18 +94,18 @@ const Servicios = () => {
                 </div>
                 <div className="shadow-box">
                     <div className="marketingTradicional--div inner--shadow grid-1-row-2-cols">
-                        <p className="grid1 mb-1_66">Plan integral de Marketing:</p>
+                        <p className="grid1 mb-1_66 p-31">Plan integral de Marketing:</p>
                         <div className="grid2">
-                            <p>Planteo del OMEP.</p>
-                            <p>(Objetivo, metas,<br /> estrategias<br /> Xy Programa).</p>
-                            <p>Análisis de empresa<br /> (interna y externa).</p>
-                            <p>Análisis de la<br /> Competencia.</p>
+                            <p className="p-31">Planteo del OMEP.</p>
+                            <p className="p-31">(Objetivo, metas,<br /> estrategias<br /> Xy Programa).</p>
+                            <p className="p-31">Análisis de empresa<br /> (interna y externa).</p>
+                            <p className="p-31">Análisis de la<br /> Competencia.</p>
                         </div>
                         <div className="grid3">
-                            <p>Análisis de ventas.</p>
-                            <p>Análisis del sector.</p>
-                            <p>Investigación de Mercado.</p>
-                            <p>Problemáticas y síntomas.</p>
+                            <p className="p-31">Análisis de ventas.</p>
+                            <p className="p-31">Análisis del sector.</p>
+                            <p className="p-31">Investigación de Mercado.</p>
+                            <p className="p-31">Problemáticas y síntomas.</p>
                         </div>
                     </div>
                 </div>
@@ -113,17 +113,17 @@ const Servicios = () => {
             <section className="gestionDeRedesSociales">
                 <h2 className="title title-90">Gestión De Redes Sociales</h2>
                 <h4 className="title-48">El éxito está en interactuar mientras los otros sólo postean.</h4>
-                <p className="gestionDeRedesSociales__description description">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
+                <p className="gestionDeRedesSociales__description description p-31">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div className="communityManager--title servicios__title">
                     <img src={communityManager} alt='community manager'></img>
                     <h3 className="title-72 mb-1_66 absolute">Community Manager</h3>
                 </div>
                 <div className="shadow-box">
                     <div className="communityManager--div inner--shadow">
-                        <p>Planificación y creación de contenido</p>
-                        <p>Carga a redes sociales</p>
-                        <p>Reporting</p>
-                        <p>Monitoreo de comentarios e interacciones</p>
+                        <p className="p-31">Planificación y creación de contenido</p>
+                        <p className="p-31">Carga a redes sociales</p>
+                        <p className="p-31">Reporting</p>
+                        <p className="p-31">Monitoreo de comentarios e interacciones</p>
                     </div>
                 </div>
                 <div className="gestionDeComunidades--title servicios__title">
@@ -133,15 +133,15 @@ const Servicios = () => {
                 <div className="shadow-box">
                     <div className="gestionDeComunidades--div inner--shadow grid-2-cols">
                         <div>
-                            <p>Administración de redes sociales</p>
-                            <p>Respuestas de bandejas de entradas</p>
-                            <p>Administración de página web</p>
-                            <p>Configuración de chat boots</p>
+                            <p className="p-31">Administración de redes sociales</p>
+                            <p className="p-31">Respuestas de bandejas de entradas</p>
+                            <p className="p-31">Administración de página web</p>
+                            <p className="p-31">Configuración de chat boots</p>
                         </div>
                         <div>
-                            <p>Administración de campañas publicitarias</p>
-                            <p>Configuración de Whatsapp Business </p>
-                            <p>Creación y optimización de redes</p>
+                            <p className="p-31">Administración de campañas publicitarias</p>
+                            <p className="p-31">Configuración de Whatsapp Business </p>
+                            <p className="p-31">Creación y optimización de redes</p>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ const Servicios = () => {
                 </div>
                 <div className="shadow-box">
                     <div className="publicidadDigital--div inner--shadow">
-                        <p>Creacion, ejecucion y monitoreo de pauta publicitaria en plataformas Ads</p>
+                        <p className="p-31">Creacion, ejecucion y monitoreo de pauta publicitaria en plataformas Ads</p>
                     </div>
                 </div>
                 <div className="desarrolloWeb--title servicios__title">
@@ -160,9 +160,9 @@ const Servicios = () => {
                 </div>
                 <div className="shadow-box">
                     <div className="desarrolloWeb--div inner--shadow">
-                        <p>Sitios web.</p>
-                        <p>Tiendas virtuales.</p>
-                        <p>Landing pages.</p>
+                        <p className="p-31">Sitios web.</p>
+                        <p className="p-31">Tiendas virtuales.</p>
+                        <p className="p-31">Landing pages.</p>
                     </div>
                 </div>
                 <div className="desarrolloUxUi--title servicios__title">
@@ -171,11 +171,11 @@ const Servicios = () => {
                 </div>
                 <div className="shadow-box">
                     <div className="desarrolloUxUi--div inner--shadow">
-                        <p className="mb-1_66">Diseño y mejora de experiencia de usuarios en:</p>
-                        <p>Sitio Web</p>
-                        <p>Tiendas e-commercer</p>
-                        <p>Aplicaciones</p>
-                        <p>Creación de interfaces.</p>
+                        <p className="mb-1_66 p-31">Diseño y mejora de experiencia de usuarios en:</p>
+                        <p className="p-31">Sitio Web</p>
+                        <p className="p-31">Tiendas e-commercer</p>
+                        <p className="p-31">Aplicaciones</p>
+                        <p className="p-31">Creación de interfaces.</p>
                     </div>
                 </div>
             </section>

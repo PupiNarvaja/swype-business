@@ -19,6 +19,10 @@ import client17 from '../../../assets/images/clients/client17.png';
 import client18 from '../../../assets/images/clients/client18.png';
 import client19 from '../../../assets/images/clients/client19.png';
 import './Clientes.css';
+import Carousel from '../../CarouselContainer/Carousel/Carousel';
+import PhoneCarouselArray from '../../CarouselContainer/PhoneCarousel/PhoneCarouselArray';
+import BrandCarouselArray from '../../CarouselContainer/BrandCarousel/BrandCarouselArray';
+import CommentsCarouselArray from '../../CarouselContainer/CommentsCarousel/CommentsCarouselArray';
 
 const Clientes = () => {
     return (
@@ -44,8 +48,15 @@ const Clientes = () => {
                 <img src={client18} alt='cliente'></img>
                 <img src={client19} alt='cliente'></img>
             </div>
-            <div>
-                
+            <div className='my-156'>
+                <Carousel slides={BrandCarouselArray()} perPage={1} perPageBreakPoint={1} />
+            </div>
+            <div className='my-156'>
+                <Carousel slides={PhoneCarouselArray()} perPage={3} perPageBreakPoint={1} />
+            </div>
+            <div className='my-156'>
+                <h3 className='title-72'>Comentarios</h3>
+                <Carousel slides={CommentsCarouselArray()} perPage={1} perPageBreakPoint={1} />
             </div>
         </div>
     )
