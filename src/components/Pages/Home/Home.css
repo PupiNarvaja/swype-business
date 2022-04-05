@@ -1,12 +1,15 @@
 /* GENERAL */
-.container {
-    max-width: 1400px;
+body .container {
+    max-width: 77.77rem;
     margin: 0 auto;
+    width: 95%;
 }
 
 /* EL ESTUDIO  */
 .estudio--container {
-    width: 90%;
+    max-width: 62.11rem;
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
     margin-bottom: 110px;
@@ -14,44 +17,35 @@
 
 .estudio--container h2 {
     text-align: center;
-    margin-bottom: 110px;
+    margin-bottom: 6.11rem;
 }
 
 .estudio--container .estudio--p {
-    padding-top: clamp(50px, 10px + 8vw, 100px);
-    padding-bottom: clamp(50px, 10px + 8vw, 100px);
-    padding-left: clamp(35px, 2px + 4vw, 55px);
-    padding-right: clamp(25px, 2px + 4vw, 55px);
+    padding: 4.44rem 3.05rem 5.55rem 3.05rem;
     background-image: url(/src/assets/images/background/paragraph-background.png);
     background-repeat: round;
     background-size: cover;
-    min-height: 370px;
-    max-width: 710px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    margin-bottom: 32px;
-}
-
-.estudio--container .estudio--p p {
+    min-height: 20.55rem;
+    max-width: 39.44rem;
+    margin: 0 auto 32px auto;
     color: white;
 }
 
 /* SERVICIOS  */
 .servicios--container {
-    width: 90%;
     margin-bottom: 110px;
 }
 
 .servicios--container h2 {
     text-align: center;
-    margin: 5.27rem 0;
+    margin-bottom: 5.27rem;
 }
 
 .servicios--container .servicios--wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    gap: 22.5px
 }
 
 .servicios--wrapper .card-1 {
@@ -69,9 +63,7 @@
 .servicios--container .servicios--card {
     min-width: 270px;
     width: 21.5rem;
-    min-height: 25.55rem;
     padding: 45px 60px;
-    margin: 22.5px;
     background-repeat: round;
     display: flex;
     flex-flow: column nowrap;
@@ -102,19 +94,19 @@
 /* EL EQUIPO */
 .equipo--wrapper {
     background-image: url(../../../assets/images/background/horizontalCurves.png);
-    background-size: 470px 1120px;
+    background-size: 360px 725px;
     background-position: center center;
     background-repeat: no-repeat;
-    margin-top: 200px;
+    margin: 11.11rem auto 0 auto;
 }
 
-.equipo--container {
+body .equipo--container {
     position: relative;
-    top: -100px;
+    top: -50px;
 }
 
 .equipo--container h2 {
-    margin-bottom: 100px;
+    margin-bottom: 5.55rem;
     text-align: center;
 }
 
@@ -153,8 +145,9 @@
 @media (min-width: 768px) {
     .equipo--wrapper {
         background-image: url(../../../assets/images/background/curves.png);
-        background-size: 102%;
-        background-position: 50% 57%;
+        background-size: 106%;
+        background-position: 50% 75%;
+        /* max-width: 1700px; */
     }
     .equipo--container .users--container {
         flex-flow: row nowrap;
@@ -163,41 +156,24 @@
 }
 
 @media (min-width: 900px) {
-    .container {
-        padding: 0 50px;
-    }
     .home--container {
         justify-content: space-between;
     }
-    .estudio--container,
-    .servicios--container,
-    .equipo--container {
-        width: unset;
+    /* ESTUDIO */
+    .estudio--container h2 {
+        max-width: 55.5rem;
+    }
+    .estudio--container .estudio--p {
+        margin: 0 0 32px 0;
     }
     /* SERVICIOS */
+    .servicios--container .servicios--wrapper {
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
     .servicios--container h2 {
         text-align: start;
-        padding-left: 10px;
-    }
-    /* CLIENTES */
-    .clientes--container {
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 1100px) {
-    .estudio--container h2 {
-        text-align: end;
-    }
-    .estudio--container .button--container,
-    .estudio--container h2 {
-        justify-content: flex-end;
-        width: 88%;
-        max-width: 690px;
-    }
-    /* SERVICIOS */
-    .servicios--container .card-1 {
-        margin-left: 0;
+        padding-left: 1.33rem;
     }
     /* EL EQUIPO */
     .equipo--container h2 {
@@ -205,7 +181,16 @@
         margin-right: 20px;
     }
     /* CLIENTES */
+    .clientes--container {
+        margin: 0 auto;
+    }
     .clientes--container h2 {
         text-align: start;
+    }
+}
+
+@media (min-width: 1200px) {
+    .estudio--container {
+        max-width: 66.11rem;
     }
 }

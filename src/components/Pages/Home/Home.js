@@ -8,7 +8,7 @@ import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarousel
 const Home = () => {
     return (
         <>
-            <div className='estudio--container container'>
+            <div className='estudio--container'>
                 <h2 className='title'>El Estudio</h2>
                 <div className='estudio--p'>
                     <p className='p-24'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>

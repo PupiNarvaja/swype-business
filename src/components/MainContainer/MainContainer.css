@@ -1,16 +1,10 @@
-/* .container {
-    max-width: 1400px;
-    margin: 0 auto;
-} */
-
 .main {
-    width: 100%;
     background-image: url(/src/assets/images/background/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: top center; */
     background-position: right;
-    min-height: 90vh;
+    height: 90vh;
+    min-height: 500px;
 }
 
 .main--container {
@@ -18,28 +12,20 @@
     top: 176px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .main .main--title--img {
-    width: clamp(250px, 330px + 20vw, 638px);
+    width: 85%;
+    max-width: 35.44rem;
 }
 
 .main .main--title {
     font-family: Gobold Lowplus;
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 6.6rem;
+    line-height: 6.6rem;
     font-weight: 400;
-    text-align: center;
     color: white;
     text-transform: uppercase;
-}
-
-@media (min-width: 460px) {
-    .main .main--title {
-        font-size: 6.6rem;
-        line-height: 6.6rem;
-    }
 }
 
 @media (min-width: 900px) {
@@ -47,6 +33,6 @@
         min-height: 110vh;
     }
     .main--container {
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 }
