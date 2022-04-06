@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import user from '../../../assets/images/user.png';
+import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
 import Carousel from '../../CarouselContainer/Carousel/Carousel';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
@@ -8,7 +9,7 @@ import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarousel
 const Home = () => {
     return (
         <>
-            <div className='estudio--container container'>
+            <div className='estudio--container'>
                 <h2 className='title'>El Estudio</h2>
                 <div className='estudio--p'>
                     <p className='p-24'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
@@ -44,13 +45,22 @@ const Home = () => {
                     <h2 className='title'>El Equipo</h2>
                     <div className='users--container'>
                         <div className='max-width-313'>
-                            <img src={user} alt='miembro del equipo'></img>
+                            <picture>
+                                <source srcSet={userWebp}></source>
+                                <img src={user} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                         <div className='max-width-313'>
-                            <img src={user} alt='miembro del equipo'></img>
+                            <picture>
+                                <source srcSet={userWebp}></source>
+                                <img src={user} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                         <div className='max-width-313'>
-                            <img src={user} alt='miembro del equipo'></img>
+                            <picture>
+                                <source srcSet={userWebp}></source>
+                                <img src={user} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                     </div>
                 </div>
