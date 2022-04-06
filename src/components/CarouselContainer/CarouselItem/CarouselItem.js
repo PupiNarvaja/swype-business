@@ -6,11 +6,17 @@ const CarouselItem = ({ slide }) => {
         <SplideSlide>
             {slide.id === "HomeCarousel" ? 
             <div className='max-width-313'>
-                <img src={slide.content} alt={slide.alt}></img>
+                <picture>
+                    <source srcSet={slide.contentB}></source>
+                    <img src={slide.content} alt={slide.alt}></img>
+                </picture>
             </div>
                 : slide.id === "PhoneCarousel" ?
             <div className='max-width-374'>
-                <img src={slide.content} alt={slide.alt}></img>
+                <picture>
+                    <source srcSet={slide.content1}></source>
+                    <img src={slide.content2} alt={slide.alt}></img>
+                </picture>
             </div>
                 : slide.id === "BrandCarousel" ?
             <div className='brandCarousel'>
@@ -25,8 +31,14 @@ const CarouselItem = ({ slide }) => {
                     </div>               
                 </div>
                 <div className='brandCarousel__images--container'>
-                    <img src={slide.image1} alt={slide.alt}></img>
-                    <img src={slide.image2} alt={slide.alt}></img>
+                    <picture>
+                        <source srcSet={slide.image1}></source>
+                        <img src={slide.imageB1} alt={slide.alt}></img>
+                    </picture>
+                    <picture>
+                        <source srcSet={slide.image2}></source>
+                        <img src={slide.imageB2} alt={slide.alt}></img>                   
+                    </picture>
                 </div>
             </div>
                 :

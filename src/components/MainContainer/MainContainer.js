@@ -1,4 +1,5 @@
 import React from "react";
+import mainTitleWebp from '../../assets/images/mainTitleWebP.webp'
 import './MainContainer.css';
 
 const MainContainer = ({ title, typeOfTitle, content }) => {
@@ -7,7 +8,10 @@ const MainContainer = ({ title, typeOfTitle, content }) => {
             <div className='main'>
                 <div className='main--container container'>
                     {typeOfTitle === 'img' ?
-                    <img src={title} alt='Main title' className='main--title--img'></img>
+                    <picture>
+                        <source type="image/webp" srcSet={mainTitleWebp}></source>
+                        <img src={title} alt='Main title' className='main--title--img block' width='638' height='351'></img>
+                    </picture>
                     :
                     <h1 className='main--title'>{title}</h1>}
                 </div>

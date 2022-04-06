@@ -16,7 +16,9 @@
 
 .main .main--title--img {
     width: 85%;
+    margin: 0 auto;
     max-width: 35.44rem;
+    height: auto;
 }
 
 .main .main--title {
@@ -34,5 +36,10 @@
     }
     .main--container {
         justify-content: flex-start;
+    }
+    .main .main--title--img {
+        width: 100%;
+        margin: 0;
+
     }
 }

@@ -64,6 +64,10 @@ a:visited {
     margin-bottom: 1.66rem;
 }
 
+.block {
+    display: block;
+}
+
 @media (min-width: 0px) {
     :root {
         font-size: 10px;
@@ -92,6 +96,7 @@ a:visited {
 @font-face {
     font-family: Gobold Lowplus;
     src: url(./assets/fonts/Gobold\ Lowplus.otf);
+    /* font-display: block; */
 }
 @font-face {
     font-family: "Acumin Variable Concept";

@@ -20,6 +20,8 @@
 
 .icons img {
     max-width: 8.803rem;
+    width: 100%;
+    height: auto;
 }
 
 
