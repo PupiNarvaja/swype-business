@@ -10,6 +10,17 @@ import publicidadDigital from '../../../assets/images/icons/publicidadDigital.pn
 import desarrolloWeb from '../../../assets/images/icons/desarrolloWeb.png';
 import desarrolloUxUi from '../../../assets/images/icons/desarrolloUxUi.png';
 
+/* Webp format */
+import disenoGraficoWebp from '../../../assets/images/icons/disenoGraficoWebp.webp';
+import fotografiaWebp from '../../../assets/images/icons/fotografiaWebp.webp';
+import marketingDigitalWebp from '../../../assets/images/icons/marketingDigitalWebp.webp';
+import marketingTradicionalWebp from '../../../assets/images/icons/marketingTradicionalWebp.webp';
+import communityManagerWebp from '../../../assets/images/icons/communityManagerWebp.webp';
+import gestionDeComunidadesWebp from '../../../assets/images/icons/gestionDeComunidadesWebp.webp';
+import publicidadDigitalWebp from '../../../assets/images/icons/publicidadDigitalWebp.webp';
+import desarrolloWebWebp from '../../../assets/images/icons/desarrolloWebWebp.webp';
+import desarrolloUxUiWebp from '../../../assets/images/icons/desarrolloUxUiWebp.webp';
+
 const Servicios = () => {
     return (
         <div className="servicios">
@@ -18,7 +29,10 @@ const Servicios = () => {
                 <h4 className="title-48">Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
                 <p className="creatividadYDiseno__description description p-31">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
                 <div className="disenoGrafico--title servicios__title">
-                    <img src={disenoGrafico} alt='diseño grafico'></img>
+                    <picture>
+                        <source srcSet={disenoGraficoWebp}></source>
+                        <img src={disenoGrafico} alt='diseño grafico'></img>
+                    </picture>
                     <h3 className="title-72 mb-1_66 absolute">Diseño Gráfico</h3>
                 </div>
                 <div className="shadow-box">
@@ -52,7 +66,10 @@ const Servicios = () => {
                 </div>
                 <div className="fotografia--title servicios__title">
                     <h3 className="title-72 mb-1_66 absolute">Fotografía</h3>
-                    <img src={fotografia} alt='cámara'></img>
+                    <picture>
+                        <source srcSet={fotografiaWebp}></source>
+                        <img src={fotografia} alt='cámara'></img>
+                    </picture>
                 </div>
                 <div className="shadow-box">
                     <div className="fotografia--div inner--shadow">
@@ -66,7 +83,10 @@ const Servicios = () => {
                 <h4 className="title-48">En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
                 <p className="marketingYComunicacion__description description p-31">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
                 <div className="marketingDigital--title servicios__title">
-                    <img src={marketingDigital} alt='marketing digital'></img>
+                    <picture>
+                        <source srcSet={marketingDigitalWebp}></source>
+                        <img src={marketingDigital} alt='marketing digital'></img>
+                    </picture>
                     <h3 className="title-72 mb-2_22 absolute">Marketing Digital</h3>
                 </div>
                 <div className="shadow-box">
@@ -90,7 +110,10 @@ const Servicios = () => {
                 </div>
                 <div className="marketingTradicional--title servicios__title">
                     <h3 className="title-72 mb-2_22 absolute">Marketing Tradicional</h3>
-                    <img src={marketingTradicional} alt='marketing tradicional'></img>
+                    <picture>
+                        <source srcSet={marketingTradicionalWebp}></source>
+                        <img src={marketingTradicional} alt='marketing tradicional'></img>
+                    </picture>
                 </div>
                 <div className="shadow-box">
                     <div className="marketingTradicional--div inner--shadow grid-1-row-2-cols">
@@ -115,7 +138,10 @@ const Servicios = () => {
                 <h4 className="title-48">El éxito está en interactuar mientras los otros sólo postean.</h4>
                 <p className="gestionDeRedesSociales__description description p-31">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div className="communityManager--title servicios__title">
-                    <img src={communityManager} alt='community manager'></img>
+                    <picture>
+                        <source srcSet={communityManagerWebp}></source>
+                        <img src={communityManager} alt='community manager'></img>
+                    </picture>
                     <h3 className="title-72 mb-1_66 absolute">Community Manager</h3>
                 </div>
                 <div className="shadow-box">
@@ -128,7 +154,10 @@ const Servicios = () => {
                 </div>
                 <div className="gestionDeComunidades--title servicios__title">
                     <h3 className="title-72 mb-1_66 absolute">Gestión De Comunidades</h3>
-                    <img src={gestionDeComunidades} alt='gestion de comunidades'></img>
+                    <picture>
+                        <source srcSet={gestionDeComunidadesWebp}></source>
+                        <img src={gestionDeComunidades} alt='gestion de comunidades'></img>
+                    </picture>
                 </div>
                 <div className="shadow-box">
                     <div className="gestionDeComunidades--div inner--shadow grid-2-cols">
@@ -147,7 +176,10 @@ const Servicios = () => {
                 </div>
                 <div className="publicidadDigital--title servicios__title">
                     <h3 className="title-72 mb-1_66 absolute">Publicidad Digital</h3>
-                    <img src={publicidadDigital} alt='publicidad digital'></img>
+                    <picture>
+                        <source srcSet={publicidadDigitalWebp}></source>
+                        <img src={publicidadDigital} alt='publicidad digital'></img>
+                    </picture>
                 </div>
                 <div className="shadow-box">
                     <div className="publicidadDigital--div inner--shadow">
@@ -156,7 +188,10 @@ const Servicios = () => {
                 </div>
                 <div className="desarrolloWeb--title servicios__title">
                     <h2 className="title title-90 absolute">Desarrollo Web</h2>
-                    <img src={desarrolloWeb} alt='desarrollo web'></img>
+                    <picture>
+                        <source srcSet={desarrolloWebWebp}></source>
+                        <img src={desarrolloWeb} alt='desarrollo web'></img>
+                    </picture>
                 </div>
                 <div className="shadow-box">
                     <div className="desarrolloWeb--div inner--shadow">
@@ -166,7 +201,10 @@ const Servicios = () => {
                     </div>
                 </div>
                 <div className="desarrolloUxUi--title servicios__title">
-                    <img src={desarrolloUxUi} alt='desarrollo ux y ui'></img>
+                    <picture>
+                        <source srcSet={desarrolloUxUiWebp}></source>
+                        <img src={desarrolloUxUi} alt='desarrollo ux y ui'></img>
+                    </picture>
                     <h2 className="title title-90 absolute">Desarrollo Ux Y Ui</h2>
                 </div>
                 <div className="shadow-box">
