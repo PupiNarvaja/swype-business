@@ -1,5 +1,5 @@
 import React from "react";
-import mainTitleWebp from '../../assets/images/mainTitleWebP.webp'
+import mainTitleWebp from '../../assets/images/mainTitleWebp.webp'
 import './MainContainer.css';
 
 const MainContainer = ({ title, typeOfTitle, content }) => {
