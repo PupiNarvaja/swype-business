@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import './Home.css';
 import user from '../../../assets/images/user.png';
 import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
-import Carousel from '../../CarouselContainer/Carousel/Carousel';
+// import Carousel from '../../CarouselContainer/Carousel/Carousel';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
+
+const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
     return (
@@ -68,7 +70,9 @@ const Home = () => {
             </div>
             <div className='clientes--container'>
                 <h2 className='title container'>Clientes</h2>
-                <Carousel slides={HomeCarouselArray()} perPage={3} perPageBreakPoint={2}/>
+                <Suspense fallback={null}>
+                    <Carousel slides={HomeCarouselArray()} perPage={3} perPageBreakPoint={2}/>
+                </Suspense>
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>
         </>

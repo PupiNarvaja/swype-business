@@ -1,4 +1,4 @@
-import React, {lazy} from 'react';
+import React, {lazy, Suspense} from 'react';
 import client1 from '../../../assets/images/clients/client1.png';
 import client2 from '../../../assets/images/clients/client2.png';
 import client3 from '../../../assets/images/clients/client3.png';
@@ -22,6 +22,7 @@ import './Clientes.css';
 import PhoneCarouselArray from '../../CarouselContainer/PhoneCarousel/PhoneCarouselArray';
 import BrandCarouselArray from '../../CarouselContainer/BrandCarousel/BrandCarouselArray';
 import CommentsCarouselArray from '../../CarouselContainer/CommentsCarousel/CommentsCarouselArray';
+// import Carousel from '../../CarouselContainer/Carousel/Carousel';
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Clientes = () => {
@@ -49,14 +50,20 @@ const Clientes = () => {
                 <img src={client19} alt='cliente' width='158' height='158'></img>
             </div>
             <div className='my-156'>
-                <Carousel slides={BrandCarouselArray()} perPage={1} perPageBreakPoint={1} />
+                <Suspense fallback={null}>
+                    <Carousel slides={BrandCarouselArray()} perPage={1} perPageBreakPoint={1} />
+                </Suspense>
             </div>
             <div className='my-156'>
-                <Carousel slides={PhoneCarouselArray()} perPage={3} perPageBreakPoint={1} />
+                <Suspense fallback={null}>
+                    <Carousel slides={PhoneCarouselArray()} perPage={3} perPageBreakPoint={1} />
+                </Suspense>
             </div>
             <div className='my-156'>
                 <h2 className='title-72'>Comentarios</h2>
-                <Carousel slides={CommentsCarouselArray()} perPage={1} perPageBreakPoint={1} />
+                <Suspense fallback={null}>
+                    <Carousel slides={CommentsCarouselArray()} perPage={1} perPageBreakPoint={1} />
+                </Suspense>
             </div>
         </div>
     )

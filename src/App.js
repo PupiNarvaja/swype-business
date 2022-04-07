@@ -1,58 +1,65 @@
-import React, {Suspense} from 'react';
+import React, {lazy, Suspense} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Pages/Home/Home';
-import Footer from './components/Footer/Footer';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
 import MainContainer from './components/MainContainer/MainContainer';
 import MainTitle from './assets/images/mainTitle.png';
+// import Footer from './components/Footer/Footer';
+// import Servicios from './components/Pages/Servicios/Servicios';
+// import Estudio from './components/Pages/Estudio/Estudio';
+// import Equipo from './components/Pages/Equipo/Equipo';
+// import Clientes from './components/Pages/Clientes/Clientes';
+// import Contacto from './components/Pages/Contacto/Contacto';
+
 import './App.css';
-const Servicios = React.lazy(() => import('./components/Pages/Servicios/Servicios'));
-const Estudio = React.lazy(() => import('./components/Pages/Estudio/Estudio'));
-const Equipo = React.lazy(() => import('./components/Pages/Equipo/Equipo'));
-const Clientes = React.lazy(() => import('./components/Pages/Clientes/Clientes'));
-const Contacto = React.lazy(() => import('./components/Pages/Contacto/Contacto'));
+const Servicios = lazy(() => import('./components/Pages/Servicios/Servicios'));
+const Estudio = lazy(() => import('./components/Pages/Estudio/Estudio'));
+const Equipo = lazy(() => import('./components/Pages/Equipo/Equipo'));
+const Clientes = lazy(() => import('./components/Pages/Clientes/Clientes'));
+const Contacto = lazy(() => import('./components/Pages/Contacto/Contacto'));
+const Footer = lazy(() => import('./components/Footer/Footer'));
 
 function App() {
   return (
     <BrowserRouter>
         <NavBar/>
-        <Suspense fallback={null}>
             <Routes>
                 <Route
                     path="/" 
                     exact 
-                    element={ <MainContainer title={MainTitle} typeOfTitle='img' content={<Home />} /> } 
+                    element={ <MainContainer title={MainTitle} typeOfTitle='img' content={<Suspense fallback={null}><Home /></Suspense>} /> } 
                 />
                 <Route
                     path="/servicios" 
                     exact 
-                    element={ <MainContainer title='Servicios' typeOfTitle='h1' content={<Servicios />} /> } 
+                    element={ <MainContainer title='Servicios' typeOfTitle='h1' content={<Suspense fallback={null}><Servicios /></Suspense>} /> } 
                 />
                 <Route
                     path="/estudio" 
                     exact 
-                    element={ <MainContainer title='El Estudio' typeOfTitle='h1' content={<Estudio />} /> } 
+                    element={ <MainContainer title='El Estudio' typeOfTitle='h1' content={<Suspense fallback={null}><Estudio /></Suspense>} /> } 
                 />
                 <Route
                     path="/equipo" 
                     exact 
-                    element={ <MainContainer title='El Equipo' typeOfTitle='h1' content={<Equipo />} /> } 
+                    element={ <MainContainer title='El Equipo' typeOfTitle='h1' content={<Suspense fallback={null}><Equipo /></Suspense>} /> } 
                 />
                 <Route
                     path="/clientes" 
                     exact 
-                    element={ <MainContainer title='Clientes' typeOfTitle='h1' content={<Clientes />} /> }
+                    element={ <MainContainer title='Clientes' typeOfTitle='h1' content={<Suspense fallback={null}><Clientes /></Suspense>} /> }
                 />
                 <Route
                     path="/contacto" 
                     exact 
-                    element={ <MainContainer title='Contacto' typeOfTitle='h1' content={<Contacto />} /> }
+                    element={ <MainContainer title='Contacto' typeOfTitle='h1' content={<Suspense fallback={null}><Contacto /></Suspense>} /> }
                 />
             </Routes>
             <WhatsAppBtn />
-            <Footer />
-        </Suspense>
+            <Suspense fallback={null}>
+                <Footer />
+            </Suspense>
     </BrowserRouter>
   );
 }
