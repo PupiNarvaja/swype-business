@@ -9,3 +9,8 @@ Las tecnologías usadas para realizar el proyecto son:
 Dependencies:
 ![Splidejs](https://img.shields.io/badge/-Splidejs-brightgreen?style=for-the-badge&logo=node.js&logoColor=FAFAFA)
 
+### React's functions and extra components:
+- React-router-dom
+- React.lazy()
+- Suspense
+

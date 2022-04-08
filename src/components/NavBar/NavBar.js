@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import logo from '../../assets/images/logo.png';
+import logoWebp from '../../assets/images/logoWebp.webp';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -9,6 +10,8 @@ const NavBar = () => {
     <header className='header'>
       <div className='header--container'>
         <Link to="/">
+          <picture></picture>
+            <source srcSet={logoWebp} />
             <img src={logo} alt="Logo Swype Business" className='logo'/>
         </Link>
         <div className='nav--container'>
@@ -25,7 +28,7 @@ const NavBar = () => {
             <a href='https://www.instagram.com/swypecreativo/' target="_blank" rel='noreferrer noopener'>
               <AiFillInstagram />
             </a>
-            <a href='https://www.facebook.com/swypecreativo/' target="_blank" rel='noreferrer noopener'>
+            <a href='https://www.facebook.com/swypeestudiocreativo/' target="_blank" rel='noreferrer noopener'>
               <AiFillFacebook />
             </a>
           </div>

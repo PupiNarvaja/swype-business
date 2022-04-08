@@ -2,6 +2,11 @@
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    width: 95%;
+}
+
+.my-156 {
+    margin: 8.66rem 0;
 }
 
 .icons {
@@ -15,6 +20,8 @@
 
 .icons img {
     max-width: 8.803rem;
+    width: 100%;
+    height: auto;
 }
 
 

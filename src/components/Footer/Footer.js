@@ -14,21 +14,21 @@ const Footer = () => {
                     <div className='footer__bubble'>
                         <div className='contact--div'>
                             <img src={mail} alt='mail'></img>
-                            <p>swypecreativo@gmail.com</p>
+                            <p className='p-20'>swypecreativo@gmail.com</p>
                         </div>
                         <div className='contact--div'>
                             <img src={whatsapp} alt='whatsapp'></img>
-                            <p>3513496762</p>
+                            <p className='p-20'>3513496762</p>
                         </div>
                     </div>
                     <div className='footer__bubble'>
                         <div className='contact--div'>
                             <img src={instagram} alt='instagram'></img>
-                            <p>@swypecreativo</p>
+                            <p className='p-20'>@swypecreativo</p>
                         </div>
                         <div className='contact--div'>
                             <img src={facebook} alt='facebook'></img>
-                            <p>@swypecreativo</p>
+                            <p className='p-20'>@swypecreativo</p>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@
     background-color: var(--white0-7);
     height: 43px;
     position: absolute;
-    /* display: none; TEMPORAL */
+    /*display: none; TEMPORAL */
 }
 
 .header .header--container {
@@ -34,7 +34,7 @@ nav {
 
 .nav li a {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     color: var(--dark);
 }

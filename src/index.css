@@ -17,10 +17,15 @@
     --white0-7:rgba(246, 238, 235, .7);
     --main-bg: #F6EEEB;
     --gray: #C4C4C4;
+    --black: #000000;
 }
 
 body {
     background-color: var(--main-bg);
+}
+
+p {
+    font-family: Acumin Variable Concept;
 }
 
 a,
@@ -36,6 +41,46 @@ a:visited {
     line-height: 5.3rem;
     color: var(--turquoise);
     text-transform: uppercase;
+    font-weight: 400;
+}
+
+.shadow-box {
+    background: linear-gradient(90deg, #EBE4E1 -47.52%, rgba(246, 238, 235, 0) 122.14%);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05));
+    border-radius: 5.55rem;
+    padding: 0.44rem 1.55rem 0.44rem 0.88rem;
+    width: fit-content;
+}
+
+.inner--shadow {
+    background-color: var(--turquoise);
+    border-radius: 5.55rem;
+}
+
+.p-20 {
+    font-size: 1.11rem;
+}
+
+.p-24 {
+    font-size: 1.33rem;
+    line-height: 1.66rem;
+}
+
+.p-31 {
+    font-size: 1.72rem;
+    line-height: 1.77rem;
+}
+
+.p-36 {
+    font-size: 2rem;
+}
+
+.mb-1_66 {
+    margin-bottom: 1.66rem;
+}
+
+.block {
+    display: block;
 }
 
 @media (min-width: 0px) {
@@ -66,6 +111,7 @@ a:visited {
 @font-face {
     font-family: Gobold Lowplus;
     src: url(./assets/fonts/Gobold\ Lowplus.otf);
+    font-display: block;
 }
 @font-face {
     font-family: "Acumin Variable Concept";

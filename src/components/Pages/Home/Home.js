@@ -1,20 +1,24 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import './Home.css';
 import user from '../../../assets/images/user.png';
+import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
-import Carousel from '../../Carousel/Carousel';
+// import Carousel from '../../CarouselContainer/Carousel/Carousel';
+import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
+
+const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
     return (
         <>
-            <div className='estudio--container container'>
+            <div className='estudio--container'>
                 <h2 className='title'>El Estudio</h2>
                 <div className='estudio--p'>
-                    <p>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
+                    <p className='p-24'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
                     <br></br>
-                    <p>Contamos con conocimientos que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
+                    <p className='p-24'>Contamos con conocimientos que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
                     <br></br>
-                    <p>Brindamos servicios de excelencia.</p>
+                    <p className='p-24'>Brindamos servicios de excelencia.</p>
                 </div>
                 <MainButton text="Conocé más" destiny="/estudio"/>
             </div>
@@ -24,17 +28,17 @@ const Home = () => {
                     <div className='servicios--card card-1'>
                         <h3>Creatividad y Diseño</h3>
                         <div className='circle'></div>
-                        <p>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</p>
+                        <p className='p-24'>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</p>
                     </div>
                     <div className='servicios--card card-2'>
                         <h3>Marketing y Comunicación</h3>
                         <div className='circle'></div>
-                        <p>En los detalles está la diferencia. Más funcionalidad. <br></br>Más impacto.</p>
+                        <p className='p-24'>En los detalles está la diferencia. Más funcionalidad. <br></br>Más impacto.</p>
                     </div>
                     <div className='servicios--card card-3'>
                         <h3>Gestión de redes sociales</h3>
                         <div className='circle'></div>
-                        <p>El éxito está en interactuar mientras los demás solo postean.</p>
+                        <p className='p-24'>El éxito está en interactuar mientras los demás solo postean.</p>
                     </div>
                 </div>
             </div>
@@ -43,13 +47,22 @@ const Home = () => {
                     <h2 className='title'>El Equipo</h2>
                     <div className='users--container'>
                         <div className='max-width-313'>
-                            <img src={user} alt='miembro del equipo'></img>
+                            <picture>
+                                <source srcSet={userWebp}></source>
+                                <img src={user} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                         <div className='max-width-313'>
-                            <img src={user} alt='miembro del equipo'></img>
+                            <picture>
+                                <source srcSet={userWebp}></source>
+                                <img src={user} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                         <div className='max-width-313'>
-                            <img src={user} alt='miembro del equipo'></img>
+                            <picture>
+                                <source srcSet={userWebp}></source>
+                                <img src={user} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -57,7 +70,9 @@ const Home = () => {
             </div>
             <div className='clientes--container'>
                 <h2 className='title container'>Clientes</h2>
-                <Carousel />
+                <Suspense fallback={null}>
+                    <Carousel slides={HomeCarouselArray()} perPage={3} perPageBreakPoint={2}/>
+                </Suspense>
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>
         </>
