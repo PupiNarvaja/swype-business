@@ -16,7 +16,7 @@ const Equipo = () => {
           <div className='lautaro__info info'>
             <h2 className='h-72'>Lautaro Alvarez</h2>
             <ul>
-              <li><p className='p-40'>Co-funder</p></li>
+              <li><p className='p-40'>Co-founder</p></li>
               <li><p className='p-40'>Encargado de Marketing Digital</p></li>
               <li><p className='p-40'>Paid Media Manager</p></li>
             </ul>
@@ -25,7 +25,7 @@ const Equipo = () => {
             <div className='inner--shadow'>
               <picture>
                 <source srcSet={lautaroWebp} />
-                <img src={lautaro} alt='Lautaro Alvarez, miembro del equipo'></img>
+                <img src={lautaro} alt='Lautaro Alvarez, co-founder del equipo'></img>
               </picture>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Equipo = () => {
           <div className='nicolas__info info'>
             <h2 className='h-72'>Nicolás Audi</h2>
             <ul>
-              <li><p className='p-40'>Co-funder</p></li>
+              <li><p className='p-40'>Co-founder</p></li>
               <li><p className='p-40'>Diseñador Gráfico</p></li>
             </ul>
           </div>
@@ -42,7 +42,7 @@ const Equipo = () => {
             <div className='inner--shadow'>
               <picture>
                 <source srcSet={nicolasWebp} />
-                <img src={nicolas} alt='Nicolás Audi, miembro del equipo'></img>
+                <img src={nicolas} alt='Nicolás Audi, co-founder del equipo'></img>
               </picture>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Equipo = () => {
             <div className='inner--shadow'>
               <picture>
                 <source srcSet={luciaWebp} />
-                <img src={lucia} alt='lucia, miembro del equipo'></img>
+                <img src={lucia} alt='Lucia Ortega, miembro del equipo'></img>
               </picture>
             </div>
           </div>

@@ -5,14 +5,8 @@ import Home from './components/Pages/Home/Home';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
 import MainContainer from './components/MainContainer/MainContainer';
 import MainTitle from './assets/images/mainTitle.png';
-// import Footer from './components/Footer/Footer';
-// import Servicios from './components/Pages/Servicios/Servicios';
-// import Estudio from './components/Pages/Estudio/Estudio';
-// import Equipo from './components/Pages/Equipo/Equipo';
-// import Clientes from './components/Pages/Clientes/Clientes';
-// import Contacto from './components/Pages/Contacto/Contacto';
-
 import './App.css';
+
 const Servicios = lazy(() => import('./components/Pages/Servicios/Servicios'));
 const Estudio = lazy(() => import('./components/Pages/Estudio/Estudio'));
 const Equipo = lazy(() => import('./components/Pages/Equipo/Equipo'));

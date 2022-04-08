@@ -15,6 +15,6 @@ Dependencies:
 - Suspense
 
 ### authors:
-- Narvaja Juan Manuel
-- Tanquiro Ramiro
+- Narvaja, Juan Manuel
+- Tanquias Cornejo, Ramiro
 
