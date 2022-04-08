@@ -17,7 +17,7 @@
     line-height: 50px;
     color: white;
     display: block;
-    max-width: 196px;
+    min-width: 196px;
     cursor: pointer;
 }
 
