@@ -14,3 +14,7 @@ Dependencies:
 - React.lazy()
 - Suspense
 
+### authors:
+- Narvaja Juan Manuel
+- Tanquiro Ramiro
+
