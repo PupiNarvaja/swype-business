@@ -65,6 +65,7 @@
 .clientes .title-72 {
     font-family: Gobold;
     font-size: 4rem;
+    font-weight: 400;
     line-height: 4.8rem;
     color: var(--turquoise);
     text-transform: uppercase;
