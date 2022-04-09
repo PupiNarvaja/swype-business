@@ -4,13 +4,12 @@ import user from '../../../assets/images/user.png';
 import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
-
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
     return (
         <>
-            <div className='estudio--container'>
+            <div className='estudio--container' data-aos="fade-up">
                 <h2 className='title'>El Estudio</h2>
                 <div className='estudio--p'>
                     <p className='p-24'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
@@ -21,7 +20,7 @@ const Home = () => {
                 </div>
                 <MainButton text="Conocé más" destiny="/estudio"/>
             </div>
-            <div className='servicios--container container'>
+            <div className='servicios--container container' data-aos="fade-up">
                 <h2 className='title'>Servicios</h2>
                 <div className='servicios--wrapper'>
                     <div className='servicios--card card-1'>
@@ -42,7 +41,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='equipo--wrapper'>
-                <div className='equipo--container container'>
+                <div className='equipo--container container' data-aos="fade-up">
                     <h2 className='title'>El Equipo</h2>
                     <div className='users--container'>
                         <div className='max-width-313'>
@@ -67,7 +66,7 @@ const Home = () => {
                 </div>
                 <MainButton text="Conocé más" destiny="/equipo"/>
             </div>
-            <div className='clientes--container'>
+            <div className='clientes--container' data-aos="fade-up">
                 <h2 className='title container'>Clientes</h2>
                 <Suspense fallback={null}>
                     <Carousel slides={HomeCarouselArray()} perPage={3} perPageBreakPoint={2}/>

@@ -27,7 +27,7 @@ const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'))
 const Clientes = () => {
     return (
         <div className='clientes container'>
-            <div className='icons'>
+            <div className='icons' data-aos="fade-up">
                 <img src={client1} alt='cliente' width='158' height='158'></img>
                 <img src={client2} alt='cliente' width='158' height='158'></img>
                 <img src={client3} alt='cliente' width='158' height='158'></img>
