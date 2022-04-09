@@ -18,10 +18,10 @@ import client16 from '../../../assets/images/clients/client16.png';
 import client17 from '../../../assets/images/clients/client17.png';
 import client18 from '../../../assets/images/clients/client18.png';
 import client19 from '../../../assets/images/clients/client19.png';
-import './Clientes.css';
 import PhoneCarouselArray from '../../CarouselContainer/PhoneCarousel/PhoneCarouselArray';
 import BrandCarouselArray from '../../CarouselContainer/BrandCarousel/BrandCarouselArray';
 import CommentsCarouselArray from '../../CarouselContainer/CommentsCarousel/CommentsCarouselArray';
+import './Clientes.css';
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Clientes = () => {
