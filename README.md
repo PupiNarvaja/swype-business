@@ -1,6 +1,5 @@
 # Swype Business
 #### Visit it here: 
-
 > [Live Demo](https://swypecreativo.vercel.app/)
 
 ## Stack of technologies used
