@@ -14,21 +14,29 @@ const Footer = () => {
                     <div className='footer__bubble'>
                         <div className='contact--div'>
                             <img src={mail} alt='mail'></img>
-                            <p className='p-20'>swypecreativo@gmail.com</p>
+                            <a href='mailto:swypecreativo@gmail.com' target='_blank' rel='noreferrer noopener'>
+                                <p className='p-20'>swypecreativo@gmail.com</p>
+                            </a>
                         </div>
                         <div className='contact--div'>
                             <img src={whatsapp} alt='whatsapp'></img>
-                            <p className='p-20'>3513496762</p>
+                            <a href='tel:3513496762' target='_blank' rel='noreferrer noopener'>
+                                <p className='p-20'>3513496762</p>
+                            </a>
                         </div>
                     </div>
                     <div className='footer__bubble'>
                         <div className='contact--div'>
                             <img src={instagram} alt='instagram'></img>
-                            <p className='p-20'>@swypecreativo</p>
+                            <a href='https://www.instagram.com/swypecreativo/' target='_blank' rel='noreferrer noopener'>
+                                <p className='p-20'>@swypecreativo</p>
+                            </a>
                         </div>
                         <div className='contact--div'>
                             <img src={facebook} alt='facebook'></img>
-                            <p className='p-20'>@swypecreativo</p>
+                            <a href='https://www.facebook.com/swypeestudiocreativo/' target='_blank' rel='noreferrer noopener'>
+                                <p className='p-20'>@swypeestudiocreativo</p>
+                            </a>
                         </div>
                     </div>
                 </div>
