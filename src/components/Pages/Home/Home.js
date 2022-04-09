@@ -3,7 +3,6 @@ import './Home.css';
 import user from '../../../assets/images/user.png';
 import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
-// import Carousel from '../../CarouselContainer/Carousel/Carousel';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
 
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
