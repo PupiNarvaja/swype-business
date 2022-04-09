@@ -16,19 +16,27 @@ const Contacto = () => {
       <div className='contacto__medios--container'>
         <div>
           <h3 className='contacto__sub-title'>Mail</h3>
-          <p className='p-36'>swypecreativo@gmail.com</p>
+          <a href='mailto:swypecreativo@gmail.com' target='_blank' rel='noreferrer noopener'>
+            <p className='p-36'>swypecreativo@gmail.com</p>
+          </a>
         </div>
         <div>
           <h3 className='contacto__sub-title'>Teléfono</h3>
-          <p className='p-36'>3513496762</p>
+          <a href='tel:3513496762' target='_blank' rel='noreferrer noopener'>
+            <p className='p-36'>3513496762</p>
+          </a>
         </div>
         <div>
           <h3 className='contacto__sub-title'>Instagram</h3>
-          <p className='p-36'>@swypecreativo</p>
+          <a href='https://www.instagram.com/swypecreativo/' target='_blank' rel='noreferrer noopener'>
+            <p className='p-36'>@swypecreativo</p>
+          </a>
         </div>
         <div>
           <h3 className='contacto__sub-title'>Facebook</h3>
-          <p className='p-36'>@swypecreativo</p>
+          <a href='https://www.facebook.com/swypeestudiocreativo/' target='_blank' rel='noreferrer noopener'>
+            <p className='p-36'>@swypeestudiocreativo</p>
+          </a>
         </div>
       </div>
     </div>
