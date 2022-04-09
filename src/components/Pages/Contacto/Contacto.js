@@ -1,15 +1,32 @@
-import React from 'react';
+import React,{ useRef } from 'react';
+import emailjs from 'emailjs-com'
 import MainButton from '../../MainButton/MainButton';
 import './Contacto.css';
 
 const Contacto = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_a1rez4z', 'template_ij2x9mh', form.current, 'NlnaJRXKBiPjReTVN')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  }
+
   return (
     <div className='contacto' data-aos="fade-up" data-aos-offset='100'>
       <div className='contacto__form--container'>
         <h2 className='contacto__title'>Consultas? Hablemos!</h2>
-        <form className='contacto__form'>
-          <input placeholder='Mail' type='text'></input>
-          <textarea placeholder='Dejanos tu mensaje!' type='text'></textarea>
+        <form ref={form} onSubmit={sendEmail} className='contacto__form'>
+          <input placeholder='Mail' type='text' name='email'/>
+          <textarea placeholder='Dejanos tu mensaje!' type='text' name='message'></textarea>
           <MainButton text='Enviar' destiny='send'/>
         </form>
       </div>
