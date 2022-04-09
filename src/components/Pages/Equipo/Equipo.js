@@ -12,11 +12,11 @@ import './Equipo.css';
 const Equipo = () => {
   return (
     <div className='equipo'>
-       <div className='lautaro--container equipoContainer'>
-          <div className='lautaro__info info'>
+       <div className='lautaro--container equipoContainer' data-aos="fade-up" data-aos-offset='250'>
+          <div className='info'>
             <h2 className='h-72'>Lautaro Alvarez</h2>
             <ul>
-              <li><p className='p-40'>Co-funder</p></li>
+              <li><p className='p-40'>Co-founder</p></li>
               <li><p className='p-40'>Encargado de Marketing Digital</p></li>
               <li><p className='p-40'>Paid Media Manager</p></li>
             </ul>
@@ -25,16 +25,16 @@ const Equipo = () => {
             <div className='inner--shadow'>
               <picture>
                 <source srcSet={lautaroWebp} />
-                <img src={lautaro} alt='Lautaro Alvarez, miembro del equipo'></img>
+                <img src={lautaro} alt='Lautaro Alvarez, co-founder del equipo'></img>
               </picture>
             </div>
           </div>
        </div>
-       <div className='nicolas--container equipoContainer'>
-          <div className='nicolas__info info'>
+       <div className='nicolas--container equipoContainer' data-aos="fade-up" data-aos-offset='250'>
+          <div className='info'>
             <h2 className='h-72'>Nicolás Audi</h2>
             <ul>
-              <li><p className='p-40'>Co-funder</p></li>
+              <li><p className='p-40'>Co-founder</p></li>
               <li><p className='p-40'>Diseñador Gráfico</p></li>
             </ul>
           </div>
@@ -42,13 +42,13 @@ const Equipo = () => {
             <div className='inner--shadow'>
               <picture>
                 <source srcSet={nicolasWebp} />
-                <img src={nicolas} alt='Nicolás Audi, miembro del equipo'></img>
+                <img src={nicolas} alt='Nicolás Audi, co-founder del equipo'></img>
               </picture>
             </div>
           </div>
        </div>
-       <div className='julieta--container equipoContainer'>
-          <div className='julieta__info info'>
+       <div className='julieta--container equipoContainer' data-aos="fade-up" data-aos-offset='250'>
+          <div className='info'>
             <h2 className='h-72'>Julieta Maldonado</h2>
             <ul>
               <li><p className='p-40'>Lic. en Cine y Tv</p></li>
@@ -66,8 +66,8 @@ const Equipo = () => {
             </div>
           </div>
        </div>
-       <div className='lucia--container equipoContainer'>
-          <div className='lucia__info info'>
+       <div className='lucia--container equipoContainer' data-aos="fade-up" data-aos-offset='250'>
+          <div className='info'>
             <h2 className='h-72'>Lucía Ortega</h2>
             <ul>
               <li><p className='p-40'>Técnica superior en diseño gráfico publicitario</p></li>
@@ -77,7 +77,7 @@ const Equipo = () => {
             <div className='inner--shadow'>
               <picture>
                 <source srcSet={luciaWebp} />
-                <img src={lucia} alt='lucia, miembro del equipo'></img>
+                <img src={lucia} alt='Lucia Ortega, miembro del equipo'></img>
               </picture>
             </div>
           </div>

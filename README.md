@@ -8,13 +8,13 @@ Las tecnologías usadas para realizar el proyecto son:
 
 Dependencies:
 ![Splidejs](https://img.shields.io/badge/-Splidejs-brightgreen?style=for-the-badge&logo=node.js&logoColor=FAFAFA)
+![AOS](https://img.shields.io/badge/-AOS-brightgreen?style=for-the-badge&logo=AOS&logoColor=FAFAFA) Animate On Scroll library 
 
-### React's functions and extra components:
+### Funciones y meétodos extra de React / React's functions and extra components:
 - React-router-dom
 - React.lazy()
 - Suspense
 
-### authors:
-- Narvaja Juan Manuel
-- Tanquiro Ramiro
-
+### autores / authors:
+- Narvaja, Juan Manuel
+- Tanquiro, Ramiro

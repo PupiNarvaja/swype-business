@@ -4,7 +4,7 @@ import './Contacto.css';
 
 const Contacto = () => {
   return (
-    <div className='contacto'>
+    <div className='contacto' data-aos="fade-up" data-aos-offset='100'>
       <div className='contacto__form--container'>
         <h2 className='contacto__title'>Consultas? Hablemos!</h2>
         <form className='contacto__form'>

@@ -18,17 +18,16 @@ import client16 from '../../../assets/images/clients/client16.png';
 import client17 from '../../../assets/images/clients/client17.png';
 import client18 from '../../../assets/images/clients/client18.png';
 import client19 from '../../../assets/images/clients/client19.png';
-import './Clientes.css';
 import PhoneCarouselArray from '../../CarouselContainer/PhoneCarousel/PhoneCarouselArray';
 import BrandCarouselArray from '../../CarouselContainer/BrandCarousel/BrandCarouselArray';
 import CommentsCarouselArray from '../../CarouselContainer/CommentsCarousel/CommentsCarouselArray';
-// import Carousel from '../../CarouselContainer/Carousel/Carousel';
+import './Clientes.css';
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Clientes = () => {
     return (
         <div className='clientes container'>
-            <div className='icons'>
+            <div className='icons' data-aos="fade-up">
                 <img src={client1} alt='cliente' width='158' height='158'></img>
                 <img src={client2} alt='cliente' width='158' height='158'></img>
                 <img src={client3} alt='cliente' width='158' height='158'></img>

@@ -5,14 +5,10 @@ import Home from './components/Pages/Home/Home';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
 import MainContainer from './components/MainContainer/MainContainer';
 import MainTitle from './assets/images/mainTitle.png';
-// import Footer from './components/Footer/Footer';
-// import Servicios from './components/Pages/Servicios/Servicios';
-// import Estudio from './components/Pages/Estudio/Estudio';
-// import Equipo from './components/Pages/Equipo/Equipo';
-// import Clientes from './components/Pages/Clientes/Clientes';
-// import Contacto from './components/Pages/Contacto/Contacto';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 const Servicios = lazy(() => import('./components/Pages/Servicios/Servicios'));
 const Estudio = lazy(() => import('./components/Pages/Estudio/Estudio'));
 const Equipo = lazy(() => import('./components/Pages/Equipo/Equipo'));
@@ -21,8 +17,17 @@ const Contacto = lazy(() => import('./components/Pages/Contacto/Contacto'));
 const Footer = lazy(() => import('./components/Footer/Footer'));
 
 function App() {
+    setTimeout(() => {
+        AOS.refreshHard();        
+    }, 200);
+    AOS.init({
+        once: true,
+        offset: 200,
+	    duration: 800
+    })
   return (
     <BrowserRouter>
+    <ScrollToTop />
         <NavBar/>
             <Routes>
                 <Route
