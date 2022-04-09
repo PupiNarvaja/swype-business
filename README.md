@@ -17,6 +17,7 @@
 | [splide.js](https://www.npmjs.com/package/@splidejs/splide) | For slider and carousel | 4.0.1
 | [react.lazy](https://www.npmjs.com/package/@splidejs/splide) | For loading | --------
 | [suspense](https://17.reactjs.org/docs/concurrent-mode-suspense.html) | For data fetching | --------
+| [aos](https://michalsnik.github.io/aos/) | For animations | 2.3.1
 ### Authors:
 - [Narvaja, Juan Manuel](https://www.linkedin.com/in/juan-manuel-narvaja-17b831206/)
 - [Tanquias Cornejo, Ramiro](https://www.linkedin.com/in/ramiro-tanquias/)
