@@ -48,7 +48,7 @@ const NavBar = () => {
           <img src={logo} alt="Logo Swype Business" className='logo'/>
         </picture>
       </Link>
-      <button id='menuBtn' onClick={handleToggle}>{navbarOpen ? "X" : "Open"}</button>
+      <button id='menuBtn' className={`${navbarOpen ? "is-open" : ""}`} onClick={handleToggle}><span></span></button>
       <div className={`nav--container  ${navbarOpen ? "showMenu" : "hideMenu"}`}>
         <nav id='navbar'>
             <ul className="nav__ul">
