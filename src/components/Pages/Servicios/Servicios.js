@@ -48,7 +48,7 @@ const Servicios = () => {
                                 <p className="p-31">Definición de tipografías</p>
                                 <p className="p-31">Elementos gráficos o pattern</p>
                                 <p className="p-31">Manual de identidad</p>
-                                <p className="p-31">Diseño completo de marchandising</p>
+                                <p className="p-31">Diseño completo de merchandising</p>
                                 <p className="p-31">Packaging</p>
                                 <p className="p-31">Diseño de brochure</p>
                             </div>
@@ -109,7 +109,7 @@ const Servicios = () => {
                                 <p className="p-31">Inboud Mkt.</p>
                                 <p className="p-31">Growth Mkt.</p>
                                 <p className="p-31">Email Marketing.</p>
-                                <p className="p-31">Seo.</p>
+                                <p className="p-31">SEO.</p>
                                 <p className="p-31">Publicidad en plataformas Ads.</p>
                             </div>
                         </div>
@@ -128,9 +128,9 @@ const Servicios = () => {
                             <p className="grid1 mb-1_66 p-31">Plan integral de Marketing:</p>
                             <div className="grid2">
                                 <p className="p-31">Planteo del OMEP.</p>
-                                <p className="p-31">(Objetivo, metas,<br /> estrategias<br /> Xy Programa).</p>
+                                <p className="p-31">(Objetivo, metas,<br /> estrategias<br /> y Programa).</p>
                                 <p className="p-31">Análisis de empresa<br /> (interna y externa).</p>
-                                <p className="p-31">Análisis de la<br /> Competencia.</p>
+                                <p className="p-31">Análisis de la<br /> competencia.</p>
                             </div>
                             <div className="grid3">
                                 <p className="p-31">Análisis de ventas.</p>
@@ -145,7 +145,7 @@ const Servicios = () => {
             <section className="gestionDeRedesSociales">
                 <h2 className="title title-90" data-aos="fade-up">Gestión De Redes Sociales</h2>
                 <h4 className="title-48" data-aos="fade-up">El éxito está en interactuar mientras los otros sólo postean.</h4>
-                <p className="gestionDeRedesSociales__description description p-31" data-aos="fade-up">La presencia de una marca  no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
+                <p className="gestionDeRedesSociales__description description p-31" data-aos="fade-up">La presencia de una marca no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div data-aos="fade-up">
                     <div className="communityManager--title servicios__title">
                         <picture>
@@ -177,11 +177,11 @@ const Servicios = () => {
                                 <p className="p-31">Administración de redes sociales</p>
                                 <p className="p-31">Respuestas de bandejas de entradas</p>
                                 <p className="p-31">Administración de página web</p>
-                                <p className="p-31">Configuración de chat boots</p>
+                                <p className="p-31">Configuración de chat bots</p>
                             </div>
                             <div>
                                 <p className="p-31">Administración de campañas publicitarias</p>
-                                <p className="p-31">Configuración de Whatsapp Business </p>
+                                <p className="p-31">Configuración de Whatsapp Business</p>
                                 <p className="p-31">Creación y optimización de redes</p>
                             </div>
                         </div>
@@ -197,7 +197,7 @@ const Servicios = () => {
                     </div>
                     <div className="shadow-box">
                         <div className="publicidadDigital--div inner--shadow">
-                            <p className="p-31">Creacion, ejecucion y monitoreo de pauta publicitaria en plataformas Ads</p>
+                            <p className="p-31">Creacion, ejecución y monitoreo de pauta publicitaria en plataformas Ads</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@ const Servicios = () => {
                         <div className="desarrolloUxUi--div inner--shadow">
                             <p className="mb-1_66 p-31">Diseño y mejora de experiencia de usuarios en:</p>
                             <p className="p-31">Sitio Web</p>
-                            <p className="p-31">Tiendas e-commercer</p>
+                            <p className="p-31">Tiendas e-commerce</p>
                             <p className="p-31">Aplicaciones</p>
                             <p className="p-31">Creación de interfaces.</p>
                         </div>

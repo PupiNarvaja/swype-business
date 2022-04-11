@@ -7,11 +7,12 @@
     min-height: 500px;
 }
 
-.main--container {
+.main .main--container {
     position: relative;
     top: 176px;
     display: flex;
     justify-content: center;
+    max-width: 70.44rem;
 }
 
 .main .main--title--img {
@@ -34,7 +35,7 @@
     .main {
         min-height: 110vh;
     }
-    .main--container {
+    .main .main--container {
         justify-content: flex-start;
     }
     .main .main--title--img {

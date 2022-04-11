@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <header className='header'>
       <div className='header--container'>
-        <Link to="/">
+        <Link to="/" className='logo-link'>
           <picture></picture>
             <source srcSet={logoWebp} />
             <img src={logo} alt="Logo Swype Business" className='logo'/>
