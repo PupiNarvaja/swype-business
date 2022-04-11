@@ -1,50 +1,81 @@
+/* Clases de utilidad */
+.hideMenu {
+    left: -100%;
+}
+
+.showMenu {
+    left: 0;
+}
+
+/* ---- General ---- */
 .header {
     width: 100%;
+    padding: 0 30px;
+    height: 43px;
     background-color: var(--white0-7);
-    height: 43px;
+    display: flex;
+    justify-content: space-between;
     position: fixed;
+    top: 0;
     z-index: 5;
-    /*display: none; TEMPORAL */
-}
-
-.header .header--container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 60px;
-    height: 43px;
-}
-
-.header .nav--container {
-    display: flex;
-    width: 80%;
-    max-width: 1100px;
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin-right: 80px;
-}
-
-.nav li a {
-    font-size: 1.33rem;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--dark);
+    transition: top 0.5s;
 }
 
 .logo,
 .logo-link {
     height: 34px;
     margin: auto 0;
+}
+
+#menuBtn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    height: 35px;
+    margin: auto 0;
+    z-index: 99;
+}
+
+.header .nav--container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgba(74, 189, 172, 1);
+    height: 100vh;
+    z-index: 9;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: left .5s;
+    width: 100%;
+}
+
+#navbar {
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.nav__ul {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    min-height: 50vh;
+}
+
+.nav__ul li a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
 }
 
 .social--container {
@@ -58,4 +89,35 @@ nav {
     width: 34.44px;
     height: 34.44px;
     display: flex;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 0 60px;
+    }
+    #menuBtn {
+        display: none;
+    }
+    .header .nav--container {
+        width: 80%; 
+        max-width: 61.11rem;
+        position: unset;
+        height: 100%;
+        flex-flow: row nowrap;
+        overflow: unset;
+        background: unset;
+    }
+    #navbar {
+        margin: 0;
+    }
+    .nav__ul {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-right: 4.44rem;
+        min-height: unset;
+    }
+    .nav__ul li a {
+        font-size: 1.33rem;
+        color: var(--dark);
+    }
 }
