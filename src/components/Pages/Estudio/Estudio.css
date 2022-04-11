@@ -30,6 +30,11 @@
     z-index: 1;
 }
 
+.picture--image img{
+    max-width: 11.55rem;
+    max-height: 11.55rem;
+}
+
 .mb-3_5{
     margin-bottom: 3.5rem;
 }
