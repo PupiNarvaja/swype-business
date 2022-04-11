@@ -141,7 +141,6 @@
 .marketingYComunicacion h2 {
     margin-top: 9.16rem;
     letter-spacing: -3px;
-    line-height: 6rem;
 }
 
 .marketingYComunicacion h4 {
@@ -154,6 +153,7 @@
 
 .marketingDigital--title {
     max-width: 60rem;
+    margin-top: 30px;
 }
 
 .marketingDigital--title img {
@@ -169,6 +169,7 @@
 .marketingTradicional--title {
     max-width: 67rem;
     justify-content: flex-end;
+    margin-top: 50px;
 }
 
 .marketingTradicional--title img {
@@ -192,6 +193,7 @@
 /* ---- COMMUNITY MANAGER ---- */
 .communityManager--title {
     max-width: 60rem;
+    margin-top: 50px;
 }
 
 .communityManager--title img {
@@ -207,6 +209,7 @@
 .gestionDeComunidades--title {
     max-width: 64rem;
     justify-content: flex-end;
+    margin-top: 50px;
 }
 
 .gestionDeComunidades--title img {
@@ -226,6 +229,7 @@
 /* ---- PUBLICIDAD DIGITAL ---- */
 .publicidadDigital--title {
     max-width: 56rem;
+    margin-top: 20px;
 }
 
 .publicidadDigital--title img {
@@ -239,9 +243,9 @@
 
 /* ---- DESARROLLO WEB ---- */
 .desarrolloWeb--title {
-    max-width: 62.22rem; /*  57.22rem; */
+    max-width: 62.22rem;
     justify-content: flex-end;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .desarrolloWeb--title img {
@@ -256,7 +260,7 @@
 /* ---- DESARROLLO UX/UI ---- */
 .desarrolloUxUi--title {
     max-width: 62.22rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .desarrolloUxUi--title img {
@@ -322,6 +326,10 @@
     .desarrolloWeb--div,
     .desarrolloUxUi--div {
         width: 58rem;
+    }
+    .desarrolloWeb--title,
+    .desarrolloUxUi--title {
+        margin-top: 4rem;
     }
 }
 
