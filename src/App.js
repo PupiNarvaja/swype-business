@@ -1,14 +1,14 @@
 import React, {lazy, Suspense} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AOS from 'aos';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Pages/Home/Home';
 import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
 import MainContainer from './components/MainContainer/MainContainer';
 import MainTitle from './assets/images/mainTitle.png';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import './App.css';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import 'aos/dist/aos.css';
+
 const Servicios = lazy(() => import('./components/Pages/Servicios/Servicios'));
 const Estudio = lazy(() => import('./components/Pages/Estudio/Estudio'));
 const Equipo = lazy(() => import('./components/Pages/Equipo/Equipo'));
