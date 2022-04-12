@@ -4,6 +4,7 @@ import user from '../../../assets/images/user.png';
 import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
+import { Link } from 'react-router-dom';
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
@@ -25,17 +26,23 @@ const Home = () => {
                 <div className='servicios--wrapper'>
                     <div className='servicios--card card-1'>
                         <h3>Creatividad y Diseño</h3>
-                        <div className='circle'></div>
+                        <Link to={{pathname: "/servicios", hash: "#creatividad-y-diseno"}}>
+                            <div className='circle'></div>
+                        </Link>
                         <p className='p-24'>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</p>
                     </div>
                     <div className='servicios--card card-2'>
                         <h3>Marketing y Comunicación</h3>
-                        <div className='circle'></div>
+                        <Link to={{pathname: "/servicios", hash: "#marketing-y-comunicacion"}}>
+                            <div className='circle'></div>
+                        </Link>
                         <p className='p-24'>En los detalles está la diferencia. Más funcionalidad. <br></br>Más impacto.</p>
                     </div>
                     <div className='servicios--card card-3'>
                         <h3>Gestión de redes sociales</h3>
-                        <div className='circle'></div>
+                        <Link to={{pathname: "/servicios", hash: "#gestion-de-redes-sociales"}}>
+                            <div className='circle'></div>
+                        </Link>
                         <p className='p-24'>El éxito está en interactuar mientras los demás solo postean.</p>
                     </div>
                 </div>

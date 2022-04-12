@@ -43,6 +43,11 @@
     align-items: center;
 }
 
+.footer--container .contact--div a {
+    display: flex;
+    align-items: center;
+}
+
 .contact--div img {
     width: 2.6rem;
 }

@@ -101,7 +101,7 @@
 }
 
 .social--container {
-    margin: auto 0;
+    margin: 0 0 auto 0;
     width: 93px;
     display: flex;
     justify-content: space-between;
@@ -141,5 +141,8 @@
     .nav__ul li a {
         font-size: 1.33rem;
         color: var(--dark);
+    }
+    .social--container {
+        margin: auto 0;
     }
 }

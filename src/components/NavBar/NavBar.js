@@ -4,6 +4,7 @@ import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import logo from '../../assets/images/logo.png';
 import logoWebp from '../../assets/images/logoWebp.webp';
 import './NavBar.css';
+import scrollTopOnClick from '../ScrollTopOnClick/ScrollTopOnClick';
 
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -16,12 +17,10 @@ const NavBar = () => {
     setNavbarOpen(false)
   };
 
-  const logoOnClick = () => {
-    window.scroll({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
+  const onClickFunctionWrapper = () => {
+    closeMenu()
+    scrollTopOnClick()
+  }
 
   let ubicacionPrincipal = window.pageYOffset;
   window.onscroll = function () {
@@ -42,21 +41,21 @@ const NavBar = () => {
   
   return (
     <header className="header" id='header'>
-      <Link to="/" className='logo-link' onClick={logoOnClick}>
+      <Link to="/" className='logo-link' onClick={scrollTopOnClick}>
         <picture>
           <source srcSet={logoWebp} />
           <img src={logo} alt="Logo Swype Business" className='logo'/>
         </picture>
       </Link>
-      <button id='menuBtn' className={`${navbarOpen ? "is-open" : ""}`} onClick={handleToggle}><span></span></button>
+      <button id='menuBtn' className={`${navbarOpen ? "is-open" : ""}`} onClick={handleToggle} aria-label='open or close menu'><span></span></button>
       <div className={`nav--container  ${navbarOpen ? "showMenu" : "hideMenu"}`}>
         <nav id='navbar'>
             <ul className="nav__ul">
-                <li><NavLink to="/estudio" onClick={() => closeMenu()}>El Estudio</NavLink></li>
-                <li><NavLink to="/servicios" onClick={() => closeMenu()}>Servicios</NavLink></li>
-                <li><NavLink to="/equipo" onClick={() => closeMenu()}>El Equipo</NavLink></li>
-                <li><NavLink to="/clientes" onClick={() => closeMenu()}>Clientes</NavLink></li>
-                <li><NavLink to="/contacto" onClick={() => closeMenu()}>Contacto</NavLink></li>
+                <li><NavLink to="/estudio" onClick={onClickFunctionWrapper}>El Estudio</NavLink></li>
+                <li><NavLink to="/servicios" onClick={onClickFunctionWrapper}>Servicios</NavLink></li>
+                <li><NavLink to="/equipo" onClick={onClickFunctionWrapper}>El Equipo</NavLink></li>
+                <li><NavLink to="/clientes" onClick={onClickFunctionWrapper}>Clientes</NavLink></li>
+                <li><NavLink to="/contacto" onClick={onClickFunctionWrapper}>Contacto</NavLink></li>
             </ul>
         </nav>
         <div className='social--container'>
