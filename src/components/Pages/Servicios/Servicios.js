@@ -25,7 +25,7 @@ import desarrolloUxUiWebp from '../../../assets/images/icons/desarrolloUxUiWebp.
 const Servicios = () => {
     return (
         <div className="servicios">
-            <section className="creatividadYDiseno">
+            <section id="creatividad-y-diseno" className="creatividadYDiseno">
                 <h2 className="title title-90" data-aos="fade-up">Creatividad Y Diseño</h2>
                 <h4 className="title-48" data-aos="fade-up">Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
                 <p className="creatividadYDiseno__description description p-31" data-aos="fade-up">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
@@ -83,7 +83,7 @@ const Servicios = () => {
                     </div>
                 </div>
             </section>
-            <section className="marketingYComunicacion">
+            <section id="marketing-y-comunicacion" className="marketingYComunicacion">
                 <h2 className="title title-90" data-aos="fade-up">Marketing Y Comunicación</h2>
                 <h4 className="title-48" data-aos="fade-up">En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
                 <p className="marketingYComunicacion__description description p-31" data-aos="fade-up">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
@@ -142,7 +142,7 @@ const Servicios = () => {
                     </div>
                 </div>
             </section>
-            <section className="gestionDeRedesSociales">
+            <section id="gestion-de-redes-sociales" className="gestionDeRedesSociales">
                 <h2 className="title title-90" data-aos="fade-up">Gestión De Redes Sociales</h2>
                 <h4 className="title-48" data-aos="fade-up">El éxito está en interactuar mientras los otros sólo postean.</h4>
                 <p className="gestionDeRedesSociales__description description p-31" data-aos="fade-up">La presencia de una marca no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>

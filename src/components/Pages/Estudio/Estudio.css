@@ -1,3 +1,8 @@
+#estudio {
+    width: 95%;
+    margin: 0 auto;
+}
+
 .title{
     text-align: center;
 }
@@ -52,7 +57,8 @@
 }
 
 .logo--title{
-    width: 195px;
+    width: 11.44rem;
+    margin: 0 0 0 1.5rem;
 }
 
 @media (max-width: 1200px) {
@@ -67,8 +73,4 @@
     .h-370{
         height: 250px;
     }
-    .logo--title {
-        width: 150px;
-    }
-    
 }
