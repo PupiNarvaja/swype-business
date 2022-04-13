@@ -13,7 +13,7 @@
     min-height: 8.33rem;
     display: flex;
     justify-content: flex-end;
-    height: 430px;
+    height: 515px;
 }
 
 .text--container {
@@ -63,7 +63,7 @@
 
 @media (max-width: 1200px) {
     .principal--container{
-        height: 275px;
+        height: 350px;
         margin-bottom: 8rem;
     }
     .h-335{

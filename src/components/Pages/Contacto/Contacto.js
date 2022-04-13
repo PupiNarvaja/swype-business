@@ -40,7 +40,7 @@ const Contacto = () => {
         <div>
           <h3 className='contacto__sub-title'>Teléfono</h3>
           <a href='tel:3513496762' target='_blank' rel='noreferrer noopener'>
-            <p className='p-36'>3513496762</p>
+            <p className='p-36'>+54 3513496762</p>
           </a>
         </div>
         <div>

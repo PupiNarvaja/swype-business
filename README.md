@@ -1,6 +1,6 @@
 # Swype Business
 #### Visit it here: 
-> [Live Demo](https://swypecreativo.vercel.app/)
+> [Live Demo](https://swypecreativo.com/)
 ## Stack of technologies used
 | Technology | Version|
 | ------ | ------ |
@@ -16,6 +16,7 @@
 | [react.lazy](https://www.npmjs.com/package/@splidejs/splide) | For loading | --------
 | [suspense](https://17.reactjs.org/docs/concurrent-mode-suspense.html) | For data fetching | --------
 | [aos](https://michalsnik.github.io/aos/) | For animations | 2.3.1
+| [emailjs-com](https://michalsnik.github.io/aos/) | For send emails | 3.2.0
 ### Authors:
 - [Narvaja, Juan Manuel](https://www.linkedin.com/in/juan-manuel-narvaja-17b831206/)
 - [Tanquias Cornejo, Ramiro](https://www.linkedin.com/in/ramiro-tanquias/)
