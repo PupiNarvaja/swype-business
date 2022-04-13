@@ -27,7 +27,7 @@ const Servicios = () => {
         <div className="servicios">
             <section id="creatividad-y-diseno" className="creatividadYDiseno">
                 <h2 className="title title-90" data-aos="fade-up">Creatividad Y Diseño</h2>
-                <h4 className="title-48" data-aos="fade-up">Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h4>
+                <h3 className="title-48" data-aos="fade-up">Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</h3>
                 <p className="creatividadYDiseno__description description p-31" data-aos="fade-up">Mejoramos la calidad comunicacional de tu empresa. La identidad de marca determina la solidez y seriedad de un negocio. Creamos no sólo atracción visual, sino piezas que comuniquen bien e impacten.</p>
                 <div data-aos="fade-up">
                     <div className="disenoGrafico--title servicios__title">
@@ -35,7 +35,7 @@ const Servicios = () => {
                             <source srcSet={disenoGraficoWebp}></source>
                             <img src={disenoGrafico} alt='diseño grafico'></img>
                         </picture>
-                        <h3 className="title-72 mb-1_66 absolute">Diseño Gráfico</h3>
+                        <h4 className="title-72 mb-1_66 absolute">Diseño Gráfico</h4>
                     </div>
                     <div className="shadow-box">
                         <div className="disenoGrafico--div inner--shadow grid-2-cols">
@@ -69,7 +69,7 @@ const Servicios = () => {
                 </div>
                 <div data-aos="fade-up">
                     <div className="fotografia--title servicios__title">
-                        <h3 className="title-72 mb-1_66 absolute">Fotografía</h3>
+                        <h4 className="title-72 mb-1_66 absolute">Fotografía</h4>
                         <picture>
                             <source srcSet={fotografiaWebp}></source>
                             <img src={fotografia} alt='cámara'></img>
@@ -85,7 +85,7 @@ const Servicios = () => {
             </section>
             <section id="marketing-y-comunicacion" className="marketingYComunicacion">
                 <h2 className="title title-90" data-aos="fade-up">Marketing Y Comunicación</h2>
-                <h4 className="title-48" data-aos="fade-up">En los detalles está la diferencia. Más funcionalidad. Más impacto.</h4>
+                <h3 className="title-48" data-aos="fade-up">En los detalles está la diferencia. Más funcionalidad. Más impacto.</h3>
                 <p className="marketingYComunicacion__description description p-31" data-aos="fade-up">La presencia de una marca en Facebook, Instagram, Twitter y todas las plataformas digitales sociales, logra un acercamiento directo. Crea historias y mantiene actualizadas a las empresas, facilitando el contacto real y un flujo de información permanente.</p>
                 <div data-aos="fade-up">
                     <div className="marketingDigital--title servicios__title">
@@ -93,7 +93,7 @@ const Servicios = () => {
                             <source srcSet={marketingDigitalWebp}></source>
                             <img src={marketingDigital} alt='marketing digital'></img>
                         </picture>
-                        <h3 className="title-72 mb-2_22 absolute">Marketing Digital</h3>
+                        <h4 className="title-72 mb-2_22 absolute">Marketing Digital</h4>
                     </div>
                     <div className="shadow-box">
                         <div className="marketingDigital--div inner--shadow grid-1-row-2-cols">
@@ -117,7 +117,7 @@ const Servicios = () => {
                 </div>
                 <div data-aos="fade-up">
                     <div className="marketingTradicional--title servicios__title">
-                        <h3 className="title-72 mb-2_22 absolute">Marketing Tradicional</h3>
+                        <h4 className="title-72 mb-2_22 absolute">Marketing Tradicional</h4>
                         <picture>
                             <source srcSet={marketingTradicionalWebp}></source>
                             <img src={marketingTradicional} alt='marketing tradicional'></img>
@@ -144,7 +144,7 @@ const Servicios = () => {
             </section>
             <section id="gestion-de-redes-sociales" className="gestionDeRedesSociales">
                 <h2 className="title title-90" data-aos="fade-up">Gestión De Redes Sociales</h2>
-                <h4 className="title-48" data-aos="fade-up">El éxito está en interactuar mientras los otros sólo postean.</h4>
+                <h3 className="title-48" data-aos="fade-up">El éxito está en interactuar mientras los otros sólo postean.</h3>
                 <p className="gestionDeRedesSociales__description description p-31" data-aos="fade-up">La presencia de una marca no lo es todo, la interacción que tengas con tu comunidad te va a garantizar alcanzar tu objetivo. Un adecuado manejo de redes es igual de importante que el contenido que generes.</p>
                 <div data-aos="fade-up">
                     <div className="communityManager--title servicios__title">
@@ -152,7 +152,7 @@ const Servicios = () => {
                             <source srcSet={communityManagerWebp}></source>
                             <img src={communityManager} alt='community manager'></img>
                         </picture>
-                        <h3 className="title-72 mb-1_66 absolute">Community Manager</h3>
+                        <h4 className="title-72 mb-1_66 absolute">Community Manager</h4>
                     </div>
                     <div className="shadow-box">
                         <div className="communityManager--div inner--shadow">
@@ -165,7 +165,7 @@ const Servicios = () => {
                 </div>
                 <div data-aos="fade-up">
                     <div className="gestionDeComunidades--title servicios__title">
-                        <h3 className="title-72 mb-1_66 absolute">Gestión De Comunidades</h3>
+                        <h4 className="title-72 mb-1_66 absolute">Gestión De Comunidades</h4>
                         <picture>
                             <source srcSet={gestionDeComunidadesWebp}></source>
                             <img src={gestionDeComunidades} alt='gestion de comunidades'></img>
@@ -189,7 +189,7 @@ const Servicios = () => {
                 </div>
                 <div data-aos="fade-up">
                     <div className="publicidadDigital--title servicios__title">
-                        <h3 className="title-72 mb-1_66 absolute">Publicidad Digital</h3>
+                        <h4 className="title-72 mb-1_66 absolute">Publicidad Digital</h4>
                         <picture>
                             <source srcSet={publicidadDigitalWebp}></source>
                             <img src={publicidadDigital} alt='publicidad digital'></img>
@@ -203,7 +203,7 @@ const Servicios = () => {
                 </div>
                 <div data-aos="fade-up">
                     <div className="desarrolloWeb--title servicios__title">
-                        <h2 className="title title-90 absolute">Desarrollo Web</h2>
+                        <h4 className="title title-90 absolute">Desarrollo Web</h4>
                         <picture>
                             <source srcSet={desarrolloWebWebp}></source>
                             <img src={desarrolloWeb} alt='desarrollo web'></img>
@@ -223,7 +223,7 @@ const Servicios = () => {
                             <source srcSet={desarrolloUxUiWebp}></source>
                             <img src={desarrolloUxUi} alt='desarrollo ux y ui'></img>
                         </picture>
-                        <h2 className="title title-90 absolute">Desarrollo Ux Y Ui</h2>
+                        <h4 className="title title-90 absolute">Desarrollo Ux Y Ui</h4>
                     </div>
                     <div className="shadow-box">
                         <div className="desarrolloUxUi--div inner--shadow">
