@@ -27,13 +27,16 @@ const NavBar = () => {
       let header = document.getElementById("header");
       let desplazamientoActual = window.pageYOffset;
 
-      navbarOpen
-          ? (header.style.top = "0")
-          : ubicacionPrincipal >= desplazamientoActual
-          ? (header.style.top = "0")
-          : (header.style.top = "-100px");
+      window.matchMedia("(min-width: 768px)").matches
+          ? navbarOpen
+              ? (header.style.top = "0")
+              : ubicacionPrincipal >= desplazamientoActual
+              ? (header.style.top = "0")
+              : (header.style.top = "-100px")
+          : (header.style.top = "0px");
 
       ubicacionPrincipal = desplazamientoActual;
+
       ubicacionPrincipal <= 650
           ? (header.style.backgroundColor = "rgba(246, 238, 235, .7)")
           : (header.style.backgroundColor = "rgba(246, 238, 235, .9)");
@@ -59,10 +62,10 @@ const NavBar = () => {
             </ul>
         </nav>
         <div className='social--container'>
-          <a href='https://www.instagram.com/swypecreativo/' target="_blank" rel='noreferrer noopener'>
+          <a href='https://www.instagram.com/swypecreativo/' target="_blank" rel='noreferrer noopener' aria-label='Instagram'>
             <AiFillInstagram />
           </a>
-          <a href='https://www.facebook.com/swypeestudiocreativo/' target="_blank" rel='noreferrer noopener'>
+          <a href='https://www.facebook.com/swypeestudiocreativo/' target="_blank" rel='noreferrer noopener' aria-label='Facebook'>
             <AiFillFacebook />
           </a>
         </div>
