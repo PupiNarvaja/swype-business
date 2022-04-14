@@ -1,4 +1,4 @@
-import React,{ useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
 import MainButton from '../../MainButton/MainButton';
 import './Contacto.css';
@@ -39,7 +39,7 @@ const Contacto = () => {
         </div>
         <div>
           <h3 className='contacto__sub-title'>Teléfono</h3>
-          <a href='tel:3513496762' target='_blank' rel='noreferrer noopener'>
+          <a href='https://wa.me/3513496762' target='_blank' rel='noreferrer noopener'>
             <p className='p-36'>+54 3513496762</p>
           </a>
         </div>

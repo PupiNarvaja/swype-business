@@ -7,6 +7,7 @@ import WhatsAppBtn from './components/WhatsAppBtn/WhatsAppBtn';
 import MainContainer from './components/MainContainer/MainContainer';
 import MainTitle from './assets/images/mainTitle.png';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Error from './components/Error/Error';
 import 'aos/dist/aos.css';
 
 const Servicios = lazy(() => import('./components/Pages/Servicios/Servicios'));
@@ -59,6 +60,10 @@ function App() {
                     path="/contacto" 
                     exact 
                     element={ <MainContainer title='Contacto' typeOfTitle='h1' content={<Suspense fallback={null}><Contacto /></Suspense>} /> }
+                />
+                <Route
+                    path="*"
+                    element={ <MainContainer title='Error 404' typeOfTitle='h1' content={<Suspense fallback={null}><Error /></Suspense>}/> }
                 />
             </Routes>
             <WhatsAppBtn />
