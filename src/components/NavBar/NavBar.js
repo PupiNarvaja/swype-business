@@ -24,22 +24,19 @@ const NavBar = () => {
 
   let ubicacionPrincipal = window.pageYOffset;
   window.onscroll = function () {
-      let header = document.getElementById("header");
-      let desplazamientoActual = window.pageYOffset;
+    let header = document.getElementById("header");
+    let desplazamientoActual = window.pageYOffset;
 
-      window.matchMedia("(min-width: 768px)").matches
-          ? navbarOpen
-              ? (header.style.top = "0")
-              : ubicacionPrincipal >= desplazamientoActual
-              ? (header.style.top = "0")
-              : (header.style.top = "-100px")
-          : (header.style.top = "0px");
+    window.matchMedia("(min-width: 768px)").matches
+      ? ubicacionPrincipal >= desplazamientoActual
+        ? (header.style.top = "0")
+        : (header.style.top = "-100px")
+      : (header.style.top = "0");
 
-      ubicacionPrincipal = desplazamientoActual;
-
-      ubicacionPrincipal <= 650
-          ? (header.style.backgroundColor = "rgba(246, 238, 235, .7)")
-          : (header.style.backgroundColor = "rgba(246, 238, 235, .9)");
+    ubicacionPrincipal = desplazamientoActual;
+    ubicacionPrincipal <= 650
+      ? (header.style.backgroundColor = "rgba(246, 238, 235, .7)")
+      : (header.style.backgroundColor = "rgba(246, 238, 235, .9)");
   };
   
   return (

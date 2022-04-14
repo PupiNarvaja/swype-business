@@ -76,7 +76,7 @@ const Home = () => {
             <div className='clientes--container' data-aos="fade-up">
                 <h2 className='title container'>Clientes</h2>
                 <Suspense fallback={null}>
-                    <Carousel slides={HomeCarouselArray()} perPage={3} perPageBreakPoint={2}/>
+                    <Carousel slides={HomeCarouselArray()} perPage={5} perPageBreakPoint={2}/>
                 </Suspense>
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>

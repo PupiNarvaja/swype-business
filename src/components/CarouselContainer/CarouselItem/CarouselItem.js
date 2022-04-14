@@ -5,7 +5,7 @@ const CarouselItem = ({ slide }) => {
     return (
         <SplideSlide>
             {slide.id === "HomeCarousel" ? 
-            <div className='max-width-313'>
+            <div>
                 <picture>
                     <source srcSet={slide.contentB}></source>
                     <img src={slide.content} alt={slide.alt}></img>
