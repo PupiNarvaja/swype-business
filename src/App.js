@@ -63,7 +63,7 @@ function App() {
                 />
                 <Route
                     path="*"
-                    element={ <Error/> }
+                    element={ <Error /> }
                 />
             </Routes>
             <WhatsAppBtn />
