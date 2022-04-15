@@ -63,7 +63,7 @@ function App() {
                 />
                 <Route
                     path="*"
-                    element={ <MainContainer title='Error 404' typeOfTitle='h1' content={<Suspense fallback={null}><Error /></Suspense>}/> }
+                    element={ <Error/> }
                 />
             </Routes>
             <WhatsAppBtn />
