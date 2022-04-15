@@ -26,7 +26,7 @@ const Carousel = ({ slides, perPage, perPageBreakPoint }) => {
                     perPage: perPage,
                     perMove: 1,
                     focus: 'center',
-                    speed: 800,
+                    speed: 600,
                     breakpoints: {
                         768: {
                             perPage: perPageBreakPoint,
