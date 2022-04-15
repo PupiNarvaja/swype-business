@@ -3,14 +3,14 @@ import './Home.css';
 import MainButton from '../../MainButton/MainButton';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
 import { Link } from 'react-router-dom';
-import lautaro from '../../../assets/images/lautaro.png';
-import lautaroWebp from '../../../assets/images/lautaroWebp.webp';
-import nicolas from '../../../assets/images/nicolas.png';
-import nicolasWebp from '../../../assets/images/nicolasWebp.webp';
-import julieta from '../../../assets/images/julieta.png';
-import julietaWebp from '../../../assets/images/julietaWebp.webp';
-import lucia from '../../../assets/images/lucia.png';
-import luciaWebp from '../../../assets/images/luciaWebp.webp';
+import lautaro from '../../../assets/images/lautaroCircle.png';
+import lautaroWebp from '../../../assets/images/lautaroCircleWebp.webp';
+import nicolas from '../../../assets/images/nicolasCircle.png';
+import nicolasWebp from '../../../assets/images/nicolasCircleWebp.webp';
+import julieta from '../../../assets/images/julietaCircle.png';
+import julietaWebp from '../../../assets/images/julietaCircleWebp.webp';
+import lucia from '../../../assets/images/luciaCircle.png';
+import luciaWebp from '../../../assets/images/luciaCircleWebp.webp';
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
@@ -57,29 +57,29 @@ const Home = () => {
                 <div className='equipo--container container' data-aos="fade-up">
                     <h2 className='title'>El Equipo</h2>
                     <div className='users--container'>
-                        <div className='circle--shadow'>
-                            <div className='member max-width-313'>
-                                <picture>
-                                    <source srcSet={lautaroWebp}></source>
-                                    <img src={lautaro} alt='miembro del equipo'></img>
-                                </picture>
-                            </div>
+                        <div className='max-width-313'>
+                            <picture>
+                                <source srcSet={lautaroWebp}></source>
+                                <img src={lautaro} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
-                        <div className='circle--shadow'>
-                            <div className='member max-width-313'>
-                                <picture>
-                                    <source srcSet={julietaWebp}></source>
-                                    <img src={julieta} alt='miembro del equipo'></img>
-                                </picture>
-                            </div>
+                        <div className='max-width-313'>
+                            <picture>
+                                <source srcSet={julietaWebp}></source>
+                                <img src={julieta} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
-                        <div className='circle--shadow'>
-                            <div className='member max-width-313'>
-                                <picture>
-                                    <source srcSet={luciaWebp}></source>
-                                    <img src={lucia} alt='miembro del equipo'></img>
-                                </picture>
-                            </div>
+                        <div className='max-width-313'>
+                            <picture>
+                                <source srcSet={nicolasWebp}></source>
+                                <img src={nicolas} alt='miembro del equipo'></img>
+                            </picture>
+                        </div>
+                        <div className='max-width-313'>
+                            <picture>
+                                <source srcSet={luciaWebp}></source>
+                                <img src={lucia} alt='miembro del equipo'></img>
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Home = () => {
             <div className='clientes--container' data-aos="fade-up">
                 <h2 className='title container'>Clientes</h2>
                 <Suspense fallback={null}>
-                    <Carousel slides={HomeCarouselArray()} perPage={5} perPageBreakPoint={2}/>
+                    <Carousel slides={HomeCarouselArray()} perPage={4} perPageBreakPoint={3} center={false} />
                 </Suspense>
                 <MainButton text="Conocé más" destiny="/clientes"/>
             </div>

@@ -1,3 +1,9 @@
+.home__client {
+    min-width: 9rem;
+    width: 100%;
+}
+
+/* ---- phone carousel ---- */
 .max-width-374 {
     max-width: 20.7rem;
 }

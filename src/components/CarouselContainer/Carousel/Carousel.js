@@ -6,8 +6,8 @@ import next from '../../../assets/images/next.svg';
 import CarouselMaping from '../CarouselMaping/CarouselMaping';
 import './Carousel.css';
 
-const Carousel = ({ slides, perPage, perPageBreakPoint }) => {
-    // Recibe : array, number, number.
+const Carousel = ({ slides, perPage, perPageBreakPoint, center }) => {
+    // Recibe : array, number, number, boolean.
     // Slides es un array con información de cada slide de cada carousel del sitio.
     // Obtenemos la información de las slides solicitadas para determinado carousel y son enviadas a CarouselMaping.
     return(
@@ -25,7 +25,7 @@ const Carousel = ({ slides, perPage, perPageBreakPoint }) => {
                     pagination: false,
                     perPage: perPage,
                     perMove: 1,
-                    focus: 'center',
+                    focus: center,
                     speed: 600,
                     breakpoints: {
                         768: {

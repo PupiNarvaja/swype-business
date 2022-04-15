@@ -8,7 +8,7 @@ const CarouselItem = ({ slide }) => {
             <div>
                 <picture>
                     <source srcSet={slide.contentB}></source>
-                    <img src={slide.content} alt={slide.alt}></img>
+                    <img src={slide.content} alt={slide.alt} className='home__client'></img>
                 </picture>
             </div>
                 : slide.id === "PhoneCarousel" ?
