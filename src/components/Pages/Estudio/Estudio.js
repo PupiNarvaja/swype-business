@@ -15,42 +15,48 @@ import lightbulbWebp from '../../../assets/images/icons/lightbulbWebp.webp';
 const Estudio = () => {
   return (
       <section id='estudio'>
-        <h2 className='title mb-3_5' data-aos="fade-up">¿Quiénes somos?</h2>
-        <div className='principal--container mb-4_5'>
-          <div className='text--container' data-aos="fade-up">
-            <p className='mb-1_66 p-31'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
-            <p className='mb-1_66 p-31'>Contamos con conocimientos y experiencias internacionales que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
-            <p className='mb-1_66 p-31'>Brindamos servicios de excelencia, pensados en brindar la mejor experiencia al usuario, con una apertura global y colectiva.</p>
+        <div data-aos="fade-up">
+          <h2 className='title mb-3_5'>¿Quiénes somos?</h2>
+          <div className='principal--container mb-4_5'>
+            <div className='text--container'>
+              <p className='mb-1_66 p-31'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
+              <p className='mb-1_66 p-31'>Contamos con conocimientos y experiencias internacionales que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
+              <p className='mb-1_66 p-31'>Brindamos servicios de excelencia, pensados en brindar la mejor experiencia al usuario, con una apertura global y colectiva.</p>
+            </div>
+            <picture className='picture--image'>
+              <source srcSet={chatWebp}></source>
+              <img src={chat} alt='Chat'></img>
+            </picture>
           </div>
-          <picture className='picture--image'>
-            <source srcSet={chatWebp}></source>
-            <img src={chat} alt='Chat' data-aos="fade-up"></img>
-          </picture>
         </div>
 
-        <h2 className='title mb-3_5' data-aos="fade-up">¿Cómo trabajamos?</h2>
-        <div className='principal--container mb-4_5 h-335'>
-          <div className='text--container' data-aos="fade-up">
-            <p className='mb-1_66 p-31'>Trabajamos involucrándonos completamente en cada proyecto, la pasión por mejorar y brindar un servicio de calidad marcan el rumbo de nuestro trabajo.</p>
+        <div data-aos="fade-up">
+          <h2 className='title mb-3_5'>¿Cómo trabajamos?</h2>
+          <div className='principal--container mb-4_5 h-335'>
+            <div className='text--container'>
+              <p className='mb-1_66 p-31'>Trabajamos involucrándonos completamente en cada proyecto, la pasión por mejorar y brindar un servicio de calidad marcan el rumbo de nuestro trabajo.</p>
+            </div>
+            <picture className='picture--image'>
+              <source srcSet={settingsWebp}></source>
+              <img src={settings} alt='Settings'></img>
+            </picture>
           </div>
-          <picture className='picture--image'>
-            <source srcSet={settingsWebp}></source>
-            <img src={settings} alt='Settings' data-aos="fade-up"></img>
-          </picture>
         </div>
 
-        <h2 className='title mb-3_5' data-aos="fade-up">¿Cómo nace 
-            <img src={logo} alt="Logo Swype Business" className='logo--title'/>
-            ?
-        </h2>
-        <div className='principal--container mb-4_5 h-370'>
-          <div className='text--container' data-aos="fade-up">
-            <p className='mb-1_66 p-31'>SWYPE nace como un estudio creativo integral de nueva generación para dar respuesta a los retos que la publicidad, la comunicación y la venta deben afrontar en un entorno de mercado en constante cambio.</p>
+        <div data-aos="fade-up">
+          <h2 className='title mb-3_5'>¿Cómo nace 
+              <img src={logo} alt="Logo Swype Business" className='logo--title'/>
+              ?
+          </h2>
+          <div className='principal--container mb-4_5 h-370'>
+            <div className='text--container'>
+              <p className='mb-1_66 p-31'>SWYPE nace como un estudio creativo integral de nueva generación para dar respuesta a los retos que la publicidad, la comunicación y la venta deben afrontar en un entorno de mercado en constante cambio.</p>
+            </div>
+            <picture className='picture--image'>
+              <source srcSet={lightbulbWebp}></source>
+              <img src={lightbulb} alt='Lightbulb'></img>
+            </picture>
           </div>
-          <picture className='picture--image'>
-            <source srcSet={lightbulbWebp}></source>
-            <img src={lightbulb} alt='Lightbulb' data-aos="fade-up"></img>
-          </picture>
         </div>
       </section>
   )
