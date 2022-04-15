@@ -1,0 +1,12 @@
+.error{
+    text-align: center;
+}
+
+.title-error{
+    font-family: 'Gobold Lowplus';
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    color: var(--turquoise);
+    margin: 20px 0px 25px;
+    text-transform: uppercase;
+}

@@ -19,12 +19,12 @@ const Estudio = () => {
         <div className='principal--container mb-4_5'>
           <div className='text--container' data-aos="fade-up">
             <p className='mb-1_66 p-31'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
-            <p className='mb-1_66 p-31'>Contamos con conocimientos que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
-            <p className='mb-1_66 p-31'>Brindamos servicios de excelencia.</p>
+            <p className='mb-1_66 p-31'>Contamos con conocimientos y experiencias internacionales que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
+            <p className='mb-1_66 p-31'>Brindamos servicios de excelencia, pensados en brindar la mejor experiencia al usuario, con una apertura global y colectiva.</p>
           </div>
           <picture className='picture--image'>
             <source srcSet={chatWebp}></source>
-            <img src={chat} alt='Chat'></img>
+            <img src={chat} alt='Chat' data-aos="fade-up"></img>
           </picture>
         </div>
 
@@ -35,7 +35,7 @@ const Estudio = () => {
           </div>
           <picture className='picture--image'>
             <source srcSet={settingsWebp}></source>
-            <img src={settings} alt='Settings'></img>
+            <img src={settings} alt='Settings' data-aos="fade-up"></img>
           </picture>
         </div>
 
@@ -49,7 +49,7 @@ const Estudio = () => {
           </div>
           <picture className='picture--image'>
             <source srcSet={lightbulbWebp}></source>
-            <img src={lightbulb} alt='Lightbulb'></img>
+            <img src={lightbulb} alt='Lightbulb' data-aos="fade-up"></img>
           </picture>
         </div>
       </section>

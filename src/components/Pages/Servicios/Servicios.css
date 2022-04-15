@@ -33,8 +33,8 @@
 }
 
 .servicios .description {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
     color: black;
     text-align: center;
     margin: 0 auto;
@@ -275,6 +275,10 @@
 @media (min-width: 768px) {
     .servicios {
         width: 93%;
+    }
+    .servicios .description {
+        font-size: 2rem;
+        line-height: 2rem;
     }
     .grid-2-cols {
         -ms-grid-columns: 50% 50%;

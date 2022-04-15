@@ -50,7 +50,7 @@
 .brandCarousel__images--container img {
     width: 100%;
     max-width: 26.88rem;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 /* ---- CommentsCarousel ---- */
@@ -82,8 +82,10 @@
         margin-bottom: 4.72rem;
         flex-flow: row nowrap;
     }
-
     .brandCarousel .brandCarousel__logo {
         margin: auto 2.5rem auto 0;
+    }
+    .brandCarousel__images--container img {
+        margin: 10px;
     }
 }
