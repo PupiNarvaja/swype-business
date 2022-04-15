@@ -3,8 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import logo from '../../assets/images/logo.png';
 import logoWebp from '../../assets/images/logoWebp.webp';
-import './NavBar.css';
 import scrollTopOnClick from '../ScrollTopOnClick/ScrollTopOnClick';
+import './NavBar.css';
 
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);

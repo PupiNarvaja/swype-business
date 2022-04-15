@@ -21,9 +21,9 @@ const Home = () => {
                 <div className='estudio--p'>
                     <p className='p-24'>Somos un grupo de profesionales de Diseño y Marketing digital.</p>
                     <br></br>
-                    <p className='p-24'>Contamos con conocimientos que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
+                    <p className='p-24'>Contamos con conocimientos y experiencias internacionales que abarcan una amplia gama de aspectos: diseño, comunicación, publicidad, marketing, entre otros.</p>
                     <br></br>
-                    <p className='p-24'>Brindamos servicios de excelencia.</p>
+                    <p className='p-24'>Brindamos servicios de excelencia, pensados en brindar la mejor experiencia al usuario, con una apertura global y colectiva.</p>
                 </div>
                 <MainButton text="Conocé más" destiny="/estudio"/>
             </div>
