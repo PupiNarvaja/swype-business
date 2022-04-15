@@ -117,13 +117,27 @@ body .equipo--container {
     padding: 75px 0;
 }
 
+.circle--shadow {
+    background: linear-gradient(90deg, #F6EEEB -69.33%, rgba(246, 238, 235, 0) 169.81%);
+    padding: 0.66rem;
+    border-radius: 100%;
+}
+
+.users--container .member {
+    border-radius: 100%;
+    background-color: var(--turquoise);
+    overflow: hidden;
+}
+
 .max-width-313 {
     max-width: 17.38rem;
+    max-height: 17.38rem;
     margin: 0 10px;
 }
 
 .max-width-313 img {
     width: 100%;
+    margin-top: -1.1rem;
 }
 
 /* CLIENTES */
