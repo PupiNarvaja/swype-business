@@ -21,7 +21,10 @@ const CarouselItem = ({ slide }) => {
                 : slide.id === "BrandCarousel" ?
             <div className='brandCarousel'>
                 <div className='brandCarousel__logo--container'>
-                    <img src={slide.logo} className='brandCarousel__logo' alt={slide.alt}></img>
+                    <picture>
+                        <source srcSet={slide.logoWebp}></source>
+                        <img src={slide.logo} className='brandCarousel__logo' alt={slide.alt}></img>
+                    </picture>
                     <div className='shadow-box'>
                         <div className='inner--shadow'>
                             <p className='p-31'>{slide.content1}</p>
