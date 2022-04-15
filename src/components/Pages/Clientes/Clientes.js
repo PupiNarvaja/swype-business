@@ -91,18 +91,18 @@ const Clientes = () => {
             </div>
             <div className='my-156'>
                 <Suspense fallback={null}>
-                    <Carousel slides={BrandCarouselArray()} perPage={1} perPageBreakPoint={1} />
+                    <Carousel slides={BrandCarouselArray()} perPage={1} perPageBreakPoint={1} center='center' />
                 </Suspense>
             </div>
             <div className='my-156'>
                 <Suspense fallback={null}>
-                    <Carousel slides={PhoneCarouselArray()} perPage={3} perPageBreakPoint={1} />
+                    <Carousel slides={PhoneCarouselArray()} perPage={3} perPageBreakPoint={1} center='center' />
                 </Suspense>
             </div>
             <div className='my-156'>
                 <h2 className='title-72'>Comentarios</h2>
                 <Suspense fallback={null}>
-                    <Carousel slides={CommentsCarouselArray()} perPage={1} perPageBreakPoint={1} />
+                    <Carousel slides={CommentsCarouselArray()} perPage={1} perPageBreakPoint={1} center='center' />
                 </Suspense>
             </div>
         </div>
