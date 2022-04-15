@@ -1,10 +1,16 @@
 import React, {lazy, Suspense} from 'react';
 import './Home.css';
-import user from '../../../assets/images/user.png';
-import userWebp from '../../../assets/images/userWebp.webp';
 import MainButton from '../../MainButton/MainButton';
 import HomeCarouselArray from '../../CarouselContainer/HomeCarousel/HomeCarouselArray';
 import { Link } from 'react-router-dom';
+import lautaro from '../../../assets/images/lautaro.png';
+import lautaroWebp from '../../../assets/images/lautaroWebp.webp';
+import nicolas from '../../../assets/images/nicolas.png';
+import nicolasWebp from '../../../assets/images/nicolasWebp.webp';
+import julieta from '../../../assets/images/julieta.png';
+import julietaWebp from '../../../assets/images/julietaWebp.webp';
+import lucia from '../../../assets/images/lucia.png';
+import luciaWebp from '../../../assets/images/luciaWebp.webp';
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
@@ -51,23 +57,29 @@ const Home = () => {
                 <div className='equipo--container container' data-aos="fade-up">
                     <h2 className='title'>El Equipo</h2>
                     <div className='users--container'>
-                        <div className='max-width-313'>
-                            <picture>
-                                <source srcSet={userWebp}></source>
-                                <img src={user} alt='miembro del equipo'></img>
-                            </picture>
+                        <div className='circle--shadow'>
+                            <div className='member max-width-313'>
+                                <picture>
+                                    <source srcSet={lautaroWebp}></source>
+                                    <img src={lautaro} alt='miembro del equipo'></img>
+                                </picture>
+                            </div>
                         </div>
-                        <div className='max-width-313'>
-                            <picture>
-                                <source srcSet={userWebp}></source>
-                                <img src={user} alt='miembro del equipo'></img>
-                            </picture>
+                        <div className='circle--shadow'>
+                            <div className='member max-width-313'>
+                                <picture>
+                                    <source srcSet={julietaWebp}></source>
+                                    <img src={julieta} alt='miembro del equipo'></img>
+                                </picture>
+                            </div>
                         </div>
-                        <div className='max-width-313'>
-                            <picture>
-                                <source srcSet={userWebp}></source>
-                                <img src={user} alt='miembro del equipo'></img>
-                            </picture>
+                        <div className='circle--shadow'>
+                            <div className='member max-width-313'>
+                                <picture>
+                                    <source srcSet={luciaWebp}></source>
+                                    <img src={lucia} alt='miembro del equipo'></img>
+                                </picture>
+                            </div>
                         </div>
                     </div>
                 </div>

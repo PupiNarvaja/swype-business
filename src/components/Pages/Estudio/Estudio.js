@@ -24,7 +24,7 @@ const Estudio = () => {
           </div>
           <picture className='picture--image'>
             <source srcSet={chatWebp}></source>
-            <img src={chat} alt='Chat'></img>
+            <img src={chat} alt='Chat' data-aos="fade-up"></img>
           </picture>
         </div>
 
@@ -35,7 +35,7 @@ const Estudio = () => {
           </div>
           <picture className='picture--image'>
             <source srcSet={settingsWebp}></source>
-            <img src={settings} alt='Settings'></img>
+            <img src={settings} alt='Settings' data-aos="fade-up"></img>
           </picture>
         </div>
 
@@ -49,7 +49,7 @@ const Estudio = () => {
           </div>
           <picture className='picture--image'>
             <source srcSet={lightbulbWebp}></source>
-            <img src={lightbulb} alt='Lightbulb'></img>
+            <img src={lightbulb} alt='Lightbulb' data-aos="fade-up"></img>
           </picture>
         </div>
       </section>
