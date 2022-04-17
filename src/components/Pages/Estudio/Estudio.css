@@ -9,7 +9,7 @@
 
 .principal--container {
     max-width: 30.44rem;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     min-height: 8.33rem;
     display: flex;
     justify-content: flex-end;

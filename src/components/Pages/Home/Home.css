@@ -148,7 +148,6 @@ body .equipo--container {
         background-image: url(../../../assets/images/background/curves.png);
         background-size: 106%;
         background-position: 50% 75%;
-        /* max-width: 1700px; */
     }
     .equipo--container .users--container {
         flex-flow: row nowrap;
@@ -157,9 +156,6 @@ body .equipo--container {
 }
 
 @media (min-width: 900px) {
-    .home--container {
-        justify-content: space-between;
-    }
     /* ESTUDIO */
     .estudio--container h2 {
         max-width: 55.5rem;
