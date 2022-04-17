@@ -3,6 +3,7 @@
 
 <head>
   <title>Swype Creativo</title>
+  <style type="text/css">*{box-sizing:border-box;margin:0;padding:0}:root{--turquoise:#4abdac;--dark:#333;--white:#fff;--white0-7:hsla(16,38%,94%,.7);--main-bg:#f6eeeb;--gray:#c4c4c4;font-size:10px}body{background-color:var(--main-bg)}@media (min-width:360px){:root{font-size:12px}@font-face{font-family:Gobold;src:url(./assets/fonts/Gobold\ Hollow\ Bold.otf)}@font-face{font-family:Gobold Lowplus;src:url(./assets/fonts/Gobold\ Lowplus.otf);font-display:block}@font-face{font-family:"Acumin Variable Concept";src:url(./assets/fonts/Acumin\ Variable\ Concept.ttf)}.main{background-image:url(/src/assets/images/background/fondoPrincipal.jpg);background-repeat:no-repeat;background-size:cover;background-position:right;height:90vh;min-height:500px}.main .main--title--img{width:85%;margin:0 auto;max-width:35.44rem;height:auto}.main .main--title{font-family:Gobold Lowplus;font-size:6.6rem;line-height:6.6rem;font-weight:400;color:#fff;text-transform:uppercase}}</style>
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -10,7 +11,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <!-- <link rel="manifest" href="/site.webmanifest"> -->
-    <style>*{box-sizing:border-box;font-family:Roboto,sans-serif;margin:0;padding:0}:root{--turquoise:#4abdac;--dark:#333;--white:#fff;--white0-7:hsla(16,38%,94%,.7);--main-bg:#f6eeeb;--gray:#c4c4c4;--black:#000;font-size:10px}body{background-color:var(--main-bg)}@media (min-width:360px){:root{font-size:12px}}</style>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
@@ -25,6 +25,17 @@
 
 <body>
   <div id="root"></div>
+  <!-- Script usado para entregar primero el CSS crítico y posteriormente el resto. -->
+  <script>var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'PATH_TO_COMBINED_CSS_FILE';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+  </script>
 </body>
 
 </html>

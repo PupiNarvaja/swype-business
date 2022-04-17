@@ -20,7 +20,7 @@
 
 .servicios p {
     text-align: left;
-    color: white;
+    color: var(--white);
 }
 
 .servicios .grid1,
