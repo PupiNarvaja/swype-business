@@ -23,13 +23,13 @@
     color: white;
 }
 
-.servicios img,
-.servicios picture,
-.servicios p,
 .servicios .grid1,
 .servicios .grid2,
-.servicios .grid3 {
-    margin: 0;
+.servicios .grid3,
+.servicios img,
+.servicios p,
+.servicios picture {
+    margin: 0
 }
 
 .servicios .description {
