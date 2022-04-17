@@ -6,12 +6,12 @@
 }
 
 :root {
-    --orange: #fc4a1a;
+    /* --orange: #fc4a1a;
     --lightorange: #fd6e48;
     --yellow: #f7b733;
-    --lightyellow:#f9c55c;
+    --lightyellow:#f9c55c; 
+    --lightturquoise: #6ecabd;*/
     --turquoise:#4abdac;
-    --lightturquoise: #6ecabd;
     --dark: #333;
     --white: #fff;
     --white0-7:rgba(246, 238, 235, .7);

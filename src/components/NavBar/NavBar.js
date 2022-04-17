@@ -48,7 +48,7 @@ const NavBar = () => {
         </picture>
       </Link>
       <button id='menuBtn' className={`${navbarOpen ? "is-open" : ""}`} onClick={handleToggle} aria-label='open or close menu'><span></span></button>
-      <div className={`nav--container  ${navbarOpen ? "showMenu" : "hideMenu"}`}>
+      <div className={`${navbarOpen ? "showMenu" : ""} nav--container`}>
         <nav id='navbar'>
             <ul className="nav__ul">
                 <li><NavLink to="/estudio" onClick={onClickFunctionWrapper}>El Estudio</NavLink></li>
