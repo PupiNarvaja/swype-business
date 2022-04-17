@@ -6,18 +6,13 @@
 }
 
 :root {
-    /* --orange: #fc4a1a;
-    --lightorange: #fd6e48;
-    --yellow: #f7b733;
-    --lightyellow:#f9c55c; 
-    --lightturquoise: #6ecabd;*/
+    font-size: 10px;
     --turquoise:#4abdac;
     --dark: #333;
     --white: #fff;
     --white0-7:rgba(246, 238, 235, .7);
     --main-bg: #F6EEEB;
     --gray: #C4C4C4;
-    --black: #000000;
 }
 
 body {
@@ -83,11 +78,6 @@ a:visited {
     display: block;
 }
 
-@media (min-width: 0px) {
-    :root {
-        font-size: 10px;
-    }
-}
 @media (min-width: 360px) {
     :root {
         font-size: 12px;

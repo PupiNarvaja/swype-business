@@ -21,7 +21,7 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    color: white;
+    color: var(--white);
     margin: 0 auto;
     margin-bottom: 1.72rem;
     max-width: 68rem;
