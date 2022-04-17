@@ -28,7 +28,7 @@ body .container {
     min-height: 20.55rem;
     max-width: 39.44rem;
     margin: 0 auto 32px auto;
-    color: white;
+    color: var(--white);
 }
 
 /* SERVICIOS  */
