@@ -31,21 +31,21 @@ const Home = () => {
                 <h2 className='title'>Servicios</h2>
                 <div className='servicios--wrapper'>
                     <div className='servicios--card card-1'>
-                        <h3>Creatividad y Diseño</h3>
+                        <h3 className='servicios--title'>Creatividad y Diseño</h3>
                         <Link to={{pathname: "/servicios", hash: "#creatividad-y-diseno"}} aria-label='Enlace a la sección creatividad y diseño'>
                             <div className='circle'></div>
                         </Link>
                         <p className='p-24'>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</p>
                     </div>
                     <div className='servicios--card card-2'>
-                        <h3>Marketing y Comunicación</h3>
+                        <h3 className='servicios--title'>Marketing y Comunicación</h3>
                         <Link to={{pathname: "/servicios", hash: "#marketing-y-comunicacion"}} aria-label='Enlace a la sección marketing y comunicación'>
                             <div className='circle'></div>
                         </Link>
                         <p className='p-24'>En los detalles está la diferencia. Más funcionalidad. <br></br>Más impacto.</p>
                     </div>
                     <div className='servicios--card card-3'>
-                        <h3>Gestión de redes sociales</h3>
+                        <h3 className='servicios--title'>Gestión de redes sociales</h3>
                         <Link to={{pathname: "/servicios", hash: "#gestion-de-redes-sociales"}} aria-label='Enlace a la sección gestion de redes sociales'>
                             <div className='circle'></div>
                         </Link>
