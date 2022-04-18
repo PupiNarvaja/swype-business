@@ -11,6 +11,12 @@ import julieta from '../../../assets/images/julietaCircle.png';
 import julietaWebp from '../../../assets/images/julietaCircleWebp.webp';
 import lucia from '../../../assets/images/luciaCircle.png';
 import luciaWebp from '../../../assets/images/luciaCircleWebp.webp';
+import creatividadYDiseno from '../../../assets/images/icons/HOME_CREATIVIDAD_Y_DISEÑO.png'
+import marketingYComunicacion from '../../../assets/images/icons/HOME_MARKETING.png'
+import gestionDeRedesSociales from '../../../assets/images/icons/HOME_GESTION_RRSS.png'
+import creatividadYDisenoWebp from '../../../assets/images/icons/HOME_CREATIVIDAD_Y_DISEÑO_WEBP.webp'
+import marketingYComunicacionWebp from '../../../assets/images/icons/HOME_MARKETING_WEBP.webp'
+import gestionDeRedesSocialesWebp from '../../../assets/images/icons/HOME_GESTION_RRSS_WEBP.webp'
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
 
 const Home = () => {
@@ -33,21 +39,36 @@ const Home = () => {
                     <div className='servicios--card card-1'>
                         <h3 className='servicios--title'>Creatividad y Diseño</h3>
                         <Link to={{pathname: "/servicios", hash: "#creatividad-y-diseno"}} aria-label='Enlace a la sección creatividad y diseño'>
-                            <div className='circle'></div>
+                            <div className='circle max-w-152'>
+                                <picture>
+                                    <source srcSet={creatividadYDisenoWebp} />
+                                    <img src={creatividadYDiseno} className='max-w-152' alt='Creatividad y diseño' />
+                                </picture>
+                            </div>
                         </Link>
                         <p className='p-24'>Invertí en la empresa que sos, para convertirte en la empresa que querés ser.</p>
                     </div>
                     <div className='servicios--card card-2'>
                         <h3 className='servicios--title'>Marketing y Comunicación</h3>
                         <Link to={{pathname: "/servicios", hash: "#marketing-y-comunicacion"}} aria-label='Enlace a la sección marketing y comunicación'>
-                            <div className='circle'></div>
+                            <div className='circle max-w-152'>
+                                <picture>
+                                    <source srcSet={marketingYComunicacionWebp} />
+                                    <img src={marketingYComunicacion} className='max-w-152' alt='Marketing y comunicación' />
+                                </picture>
+                            </div>
                         </Link>
                         <p className='p-24'>En los detalles está la diferencia. Más funcionalidad. <br></br>Más impacto.</p>
                     </div>
                     <div className='servicios--card card-3'>
                         <h3 className='servicios--title'>Gestión de redes sociales</h3>
                         <Link to={{pathname: "/servicios", hash: "#gestion-de-redes-sociales"}} aria-label='Enlace a la sección gestion de redes sociales'>
-                            <div className='circle'></div>
+                            <div className='circle max-w-152'>
+                                <picture>
+                                    <source srcSet={gestionDeRedesSocialesWebp} />
+                                    <img src={gestionDeRedesSociales} className='max-w-152' alt='Gestión de redes sociales' />
+                                </picture>
+                            </div>
                         </Link>
                         <p className='p-24'>El éxito está en interactuar mientras los demás solo postean.</p>
                     </div>
