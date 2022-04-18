@@ -25,7 +25,7 @@ const ScrollToTop = () => {
           : window.location.href.indexOf("#gestion") > -1
           ? scrollToSection(GESTION_DE_REDES)
           : window.scrollTo(0, 0);
-      }, 300);
+      }, 400);
     }, [pathname]);
 
     return null;
