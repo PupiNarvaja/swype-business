@@ -89,6 +89,14 @@ body .container {
     border-radius: 100%;
     background-color: var(--gray);
     transition: all 500ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios--container .circle img {
+    width: 7rem;
+    height: 7rem;
 }
 
 .servicios--container .circle:hover {
@@ -165,13 +173,6 @@ body .equipo--container {
 }
 
 @media (min-width: 900px) {
-    /* ESTUDIO */
-    .estudio--container h2 {
-        max-width: 55.5rem;
-    }
-    .estudio--container .estudio--p {
-        margin-bottom: 32px;
-    }
     /* SERVICIOS */
     .servicios--container .servicios--wrapper {
         justify-content: space-between;
