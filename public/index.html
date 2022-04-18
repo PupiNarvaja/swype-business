@@ -21,18 +21,58 @@
   <meta name="country" content="ARG">
   <meta name="author" content="Narvaja, Juan Manuel y Tanquias Cornejo, Ramiro">
   <meta name="copyright" content="Swype Business">
+  <!-- Meta Pixel Code -->
+  <script>
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1796761040526140');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1796761040526140&ev=PageView&noscript=1" /></noscript>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5672YP7MYP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5672YP7MYP');
+  </script>
 </head>
 
 <body>
   <div id="root"></div>
   <!-- Script usado para entregar primero el CSS crítico y posteriormente el resto. -->
-  <script>var cb = function() {
-    var l = document.createElement('link'); l.rel = 'stylesheet';
-    l.href = 'PATH_TO_COMBINED_CSS_FILE';
-    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+  <script>
+    var cb = function () {
+      var l = document.createElement('link');
+      l.rel = 'stylesheet';
+      l.href = 'PATH_TO_COMBINED_CSS_FILE';
+      var h = document.getElementsByTagName('head')[0];
+      h.parentNode.insertBefore(l, h);
     };
     var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-    webkitRequestAnimationFrame || msRequestAnimationFrame;
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
     if (raf) raf(cb);
     else window.addEventListener('load', cb);
   </script>
