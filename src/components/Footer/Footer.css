@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-image: url(/src/assets/images/background/footer.jpg);
+    background-image: url(/src/assets/images/background/footerMobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -60,6 +60,9 @@
 }
 
 @media (min-width: 768px) {
+    .footer {
+        background-image: url(/src/assets/images/background/footer.jpg);
+    }
     .footer .footer--container {
         padding-top: 11.66rem;
     }
