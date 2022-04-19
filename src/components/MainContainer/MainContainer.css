@@ -1,5 +1,5 @@
 .main {
-    background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
+    background-image: url(/src/assets/images/background/fondoPrincipalMobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -27,8 +27,14 @@
     font-size: 6.6rem;
     line-height: 6.6rem;
     font-weight: 400;
-    color: white;
+    color: #fff;
     text-transform: uppercase;
+}
+
+@media (min-width: 500px) {
+    .main {
+        background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
+    }
 }
 
 @media (min-width: 900px) {
