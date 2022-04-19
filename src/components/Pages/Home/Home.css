@@ -88,7 +88,7 @@ body .container {
     margin: 2.22rem 0 1.11rem 0;
     border-radius: 100%;
     background-color: var(--gray);
-    transition: all 300ms ease 0s;
+    transition: all 400ms ease 0s;
     display: flex;
     justify-content: center;
     align-items: center;

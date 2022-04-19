@@ -19,7 +19,7 @@
     display: block;
     min-width: 196px;
     cursor: pointer;
-    transition: filter 500ms ease 0s;
+    transition: filter 250ms ease 0s;
 }
 
 .mainButton:hover {
