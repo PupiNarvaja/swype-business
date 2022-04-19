@@ -7,8 +7,6 @@ body .container {
 
 /* EL ESTUDIO  */
 .estudio--container {
-    max-width: 62.11rem;
-    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
@@ -28,7 +26,7 @@ body .container {
     min-height: 20.55rem;
     max-width: 39.44rem;
     margin: 0 auto 32px auto;
-    color: var(--white);
+    color: #fff;
 }
 
 /* SERVICIOS  */
