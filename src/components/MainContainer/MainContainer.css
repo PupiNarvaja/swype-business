@@ -31,10 +31,15 @@
     text-transform: uppercase;
 }
 
+@media (min-width: 500px) {
+    .main {
+        background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
+    }
+}
+
 @media (min-width: 900px) {
     .main {
         min-height: 110vh;
-        background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
     }
     .main .main--container {
         justify-content: flex-start;
