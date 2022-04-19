@@ -1,5 +1,5 @@
 .main {
-    background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
+    background-image: url(/src/assets/images/background/fondoPrincipalMobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -34,6 +34,7 @@
 @media (min-width: 900px) {
     .main {
         min-height: 110vh;
+        background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
     }
     .main .main--container {
         justify-content: flex-start;
