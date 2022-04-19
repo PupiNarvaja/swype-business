@@ -59,10 +59,13 @@
     margin-left: 15px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .footer {
         background-image: url(/src/assets/images/background/footer.jpg);
     }
+}
+
+@media (min-width: 768px) {
     .footer .footer--container {
         padding-top: 11.66rem;
     }
