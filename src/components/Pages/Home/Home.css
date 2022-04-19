@@ -17,7 +17,7 @@ body .container {
 
 .estudio--container h2 {
     text-align: center;
-    margin-bottom: 6.11rem;
+    margin-bottom: 4.11rem;
 }
 
 .estudio--container .estudio--p {
@@ -39,6 +39,10 @@ body .container {
 .servicios--container h2 {
     text-align: center;
     margin-bottom: 5.27rem;
+}
+
+.servicios--title{
+    min-width: 170px;
 }
 
 .servicios--container .servicios--wrapper {
@@ -84,6 +88,19 @@ body .container {
     margin: 2.22rem 0 1.11rem 0;
     border-radius: 100%;
     background-color: var(--gray);
+    transition: all 300ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios--container .circle img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.servicios--container .circle:hover {
+    background-color: var(--white0-7);
 }
 
 .servicios--container p {
@@ -156,13 +173,6 @@ body .equipo--container {
 }
 
 @media (min-width: 900px) {
-    /* ESTUDIO */
-    .estudio--container h2 {
-        max-width: 55.5rem;
-    }
-    .estudio--container .estudio--p {
-        margin: 0 0 32px 0;
-    }
     /* SERVICIOS */
     .servicios--container .servicios--wrapper {
         justify-content: space-between;
