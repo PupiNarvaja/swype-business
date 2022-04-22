@@ -27,7 +27,7 @@ const NavBar = () => {
     let header = document.getElementById("header");
     let desplazamientoActual = window.pageYOffset;
 
-    window.matchMedia("(min-width: 768px)").matches
+    (window.matchMedia("(min-width: 768px)").matches && window.pageYOffset > 500)
       ? ubicacionPrincipal >= desplazamientoActual
         ? (header.style.top = "0")
         : (header.style.top = "-100px")
