@@ -11,10 +11,10 @@ import julieta from '../../../assets/images/julietaCircle.png';
 import julietaWebp from '../../../assets/images/julietaCircleWebp.webp';
 import lucia from '../../../assets/images/luciaCircle.png';
 import luciaWebp from '../../../assets/images/luciaCircleWebp.webp';
-import creatividadYDiseno from '../../../assets/images/icons/HOME_CREATIVIDAD_Y_DISEÑO.png'
+import creatividadYDiseno from '../../../assets/images/icons/HOME_CREATIVIDAD_Y_DISENO.png'
 import marketingYComunicacion from '../../../assets/images/icons/HOME_MARKETING.png'
 import gestionDeRedesSociales from '../../../assets/images/icons/HOME_GESTION_RRSS.png'
-import creatividadYDisenoWebp from '../../../assets/images/icons/HOME_CREATIVIDAD_Y_DISEÑO_WEBP.webp'
+import creatividadYDisenoWebp from '../../../assets/images/icons/HOME_CREATIVIDAD_Y_DISENO_WEBP.webp'
 import marketingYComunicacionWebp from '../../../assets/images/icons/HOME_MARKETING_WEBP.webp'
 import gestionDeRedesSocialesWebp from '../../../assets/images/icons/HOME_GESTION_RRSS_WEBP.webp'
 const Carousel = lazy(() => import('../../CarouselContainer/Carousel/Carousel'));
